@@ -1,0 +1,130 @@
+/* color palette */
+
+/*
+whiteLight rgb(255, 255, 255)
+blackOnyx rgb(33, 33, 33)
+greyDark rgb(117, 117, 117)
+greyLight rgb(189, 189, 189)
+blueDeep rgb(65, 90, 122)
+greenDark rgb(70, 97, 29)
+greenMiddle rgb(144, 174, 89)
+greenLight rgb(187, 213, 136)
+yellowGold rgb(223, 175, 64)
+*/
+
+/* navbar additional styling */
+
+.navbar {
+    padding-right: 2rem!important;
+}
+
+.navbar-brand img {
+  height: 2.5rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: .5rem;
+}
+
+.nav-link {
+  color: rgb(117, 117, 117);
+}
+
+.nav-link:hover {
+  color: rgb(33, 33, 33);
+}
+
+.nav-link:active {
+  color: rgb(33, 33, 33);
+}
+
+/* navbar dropdown color */
+
+.dropdown .dropdown-menu.header-drop .dropdown-item:hover, .dropdown .dropdown-menu.dropdown-primary .dropdown-item:active {
+  background-color:  rgb(70, 97, 29); }
+
+.main-content {
+  padding-top: .75%;
+}
+
+/* secondary nav pills */
+
+.pills-secondary .nav-item .nav-link.active, .tabs-secondary {
+  background-color: rgb(144, 174, 89);
+}
+
+.pills-secondary {
+  font-size: .9rem;
+  font-weight: 400;
+}
+
+.main-content .tab-content {
+  padding: 0rem 1rem;
+}
+
+/* student-list collapsed */
+
+.student-list-collapsed {
+  min-height: 60vh;
+}
+
+.card-body.student-list-collapsed {
+  padding: 0rem;
+}
+
+.student-list-collapsed h4 {
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fa-caret-square-o-right {
+  font-size: 3rem;
+  padding-top: 1rem;
+}
+
+/* footer */
+
+footer.page-footer {
+  margin-top: 10px;
+}
+
+.page-footer .card {
+  height: 12vh;
+}
+
+/* Student Id Card 1.1 */
+
+#student-id-checkincopy .card img {
+  max-width: 35%;
+}
+
+.student-id .card {
+  min-height: 60vh;
+  margin-top: 3.5rem;
+}
+
+.student-id .list-group-item {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* hides/shows #student-list-tablet and #checkin-student-list-large divs
+   (note: there are of course more elegant ways to do this but this was the
+   fastest way to give you an idea of how it should look) */
+
+/*@media only screen and (min-width: 1200px) {
+    #checkin-copy-tablet {
+      display: none;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #checkin-copy-large {
+      display: none;
+    }
+}*/
