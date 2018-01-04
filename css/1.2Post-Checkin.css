@@ -74,10 +74,12 @@ yellowGold rgb(223, 175, 64)
 
 #post-checkin .collapsed-student {
   margin-top: .6rem;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 #post-checkin .student-list-collapsed {
-  min-height: 60vh;
+  min-height: 67.5vh;
 }
 
 #post-checkin .card-body.student-list-collapsed {
@@ -120,6 +122,7 @@ yellowGold rgb(223, 175, 64)
 
 /* Daily Visit */
 
+
 #post-checkin .daily-visit .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
   background-color: rgb(223, 175, 64);
   max-width: 8rem;
@@ -130,6 +133,26 @@ yellowGold rgb(223, 175, 64)
   font-weight: 400;
 }
 
+#post-checkin #daily-visit-panel-nav .md-pills li {
+  padding: .6rem .1rem;
+}
+
+/* Daily Visit Input Forms */
+
+#post-checkin .shadow-textarea textarea.form-control::placeholder {
+    font-weight: 300;
+}
+#post-checkin .shadow-textarea textarea.form-control {
+    padding-left: 0.8rem;
+}
+
+#post-checkin .card-body.daily-visit-forms {
+  height: 56vh;
+}
+
+#exampleFormControlTextarea1, #exampleFormControlTextarea2 {
+  max-height: 5rem;
+}
 
 /* footer */
 
