@@ -46,50 +46,50 @@ yellowGold rgb(223, 175, 64)
 
 /* secondary nav pills */
 
-.pills-secondary .nav-item .nav-link.active, .tabs-secondary {
+#checkin .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
   background-color: rgb(144, 174, 89);
 }
 
-.pills-secondary {
+#checkin .pills-secondary {
   font-size: .9rem;
   font-weight: 400;
 }
 
-.main-content {
+#checkin .main-content {
   padding-top: .75%;
 }
 
-.main-content .tab-content {
+#checkin .main-content .tab-content {
   padding: 0rem 1rem;
 }
 
 /*info cards*/
 
-.student-list {
+#checkin .student-list {
   padding-right: 0px;
   padding-left: 0px;
 }
 
-.student-list .nav-item .nav-link.active, .tabs-secondary {
+#checkin .student-list .nav-item .nav-link.active, .tabs-secondary {
   background-color: rgb(223, 175, 64);
 }
 
-.student-list .nav-link {
+#checkin .student-list .nav-link {
   font-size: .9rem;
   font-weight: 400;
 }
 
-.expecting-general-seen li {
+#checkin .expecting-general-seen li {
   padding-left: .5rem;
 }
 
-.student-list .card {
+#checkin .student-list .card {
   height: 60vh;
 }
 
 /* expected students table */
 
-.table-wrapper-2 {
+#checkin .table-wrapper-2 {
   display: block;
   max-height: 60vh;
   overflow-y: auto;
@@ -98,17 +98,17 @@ yellowGold rgb(223, 175, 64)
 
 /* expected students table headers */
 
-table .th-lg {
+#checkin table .th-lg {
   min-width: 5rem;
 }
 
 /* footer */
 
-footer.page-footer {
+#checkin footer.page-footer {
   margin-top: 10px;
 }
 
-.page-footer .card {
+#checkin .page-footer .card {
   height: 12vh;
 }
 
@@ -117,13 +117,13 @@ footer.page-footer {
    simplest way to give you an idea of how it should look) */
 
 @media only screen and (min-width: 1200px) {
-    #checkin-student-list-tablet {
+    #checkin #checkin-student-list-tablet {
       display: none;
     }
 }
 
 @media only screen and (max-width: 1200px) {
-    #checkin-student-list-large {
+    #checkin #checkin-student-list-large {
       display: none;
     }
 }

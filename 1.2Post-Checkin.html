@@ -49,7 +49,7 @@
 </header>
 <!--/.Main Navigation-->
 
-<body>
+<body id="post-checkin">
 
   <!--Taking/Reviewing/Special Nav - Main Content-->
     <div class="container-fluid main-content">
@@ -78,23 +78,224 @@
               <div class="row" id="">
 
                   <!-- Collapsed Student List Card -->
-                  <div class="col-md-1">
+                  <div class="col-md-1 collapsed-student">
                       <div class="card card-body student-list-collapsed text-center">
                         <div>
-                          <i class="fa fa-caret-square-o-right" aria-hidden="true"></i>
-                          <h4 class="vertical-student-list-text">
+                          <!-- <i class="fa fa-caret-square-o-right" aria-hidden="true"></i> -->
+                          <i class="fa fa-toggle-right" aria-hidden="true"></i>
+                          <h5 class="vertical-student-list-text">
                             Student List
-                          </h4>
+                          </h5>
                         </div>
-
                       </div>
                   </div>
-                  <!--/. Collapsed Student List Card -->
+                  <!--/.Collapsed Student List Card -->
+
+                  <!-- Student Info Card -->
+
+                  <div class="col-md-3 student-info">
+                    <ul class="nav md-pills nav-justified pills-secondary">
+                      <li class="nav-item">
+                          <a class="nav-link active" data-toggle="tab" href="#panel4" role="tab">Student Info</a>
+                      </li>
+                      <!-- <li class="nav-item">
+                           <a class="nav-link" data-toggle="tab" href="#panel11" role="tab">Link</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" data-toggle="tab" href="#panel12" role="tab">Link</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" data-toggle="tab" href="#panel13" role="tab">Help</a>
+                       </li> -->
+                    </ul>
+
+                    <!-- Tab panels -->
+                    <div class="tab-content">
+
+                    <!--Panel 1-->
+                    <div class="tab-pane fade in show active" id="panel11" role="tabpanel">
+                        <br>
+
+                        <!-- Student ID Card -->
+                        <div class="student-id" id="student-id-post-checkincopy">
+
+                          <!--Card-->
+                          <div class="card card-body pre-scrollable">
+                              <div class="img-fluid avatar mt-1 text-center">
+                                  <img src="img/child.jpg" class="rounded-circle z-depth-1-half img-fluid avatar" alt="First sample avatar image">
+                              </div>
+                              <h5 class="font-bold mt-3 text-center">
+                                  <strong>Jackie Sheldon</strong>
+                              </h5>
+                              <div>
+                                <ul class="list-unstyled">
+                                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                                      Student ID
+                                      <span>11591</span>
+                                  </li>
+                                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                                      Grade
+                                      <span>1st</span>
+                                  </li>
+                                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                                      Homeroom
+                                      <span>51</span>
+                                  </li>
+                                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                                      Age
+                                      <span>6</span>
+                                  </li>
+                                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                                      Gender
+                                      <span>Female</span>
+                                  </li>
+                                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                                      Alerts
+                                      <span><i class="fa fa-exclamation-circle red-text" aria-hidden="true"></i></span>
+                                  </li>
+                                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                                      Emergency Contact
+                                      <span>Father</span>
+                                  </li>
+                                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                                      Cell Phone
+                                      <span>555.867.5309</span>
+                                  </li>
+                                </ul>
+                              </div>
+                          </div>
+                          <!--/.Card-->
+                        </div>
+                        <!-- Student ID Card -->
+
+                    </div>
+                    <!--/.Panel 1-->
+                    <!--Panel 2-->
+                    <!-- <div class="tab-pane fade" id="panel12" role="tabpanel">
+                        <br>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
+                            reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
+                            porro voluptate odit minima.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
+                            reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
+                            porro voluptate odit minima.</p>
+
+                    </div> -->
+                    <!--/.Panel 2-->
+
+                    <!--Panel 3-->
+                    <!-- <div class="tab-pane fade" id="panel13" role="tabpanel">
+                        <br>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
+                            reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
+                            porro voluptate odit minima.</p>
+
+                    </div> -->
+                    <!--/.Panel 3-->
+
+                    <!--Panel 4-->
+                    <!-- <div class="tab-pane fade" id="panel14" role="tabpanel">
+                        <br>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
+                            reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
+                            porro voluptate odit minima.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
+                            reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
+                            porro voluptate odit minima.</p>
+
+                    </div> -->
+                    <!--/.Panel 4-->
+
+                    </div>
+
+                  </div>
+
+                  <!--/.Student Info -->
+
+                  <!--Daily Visit-->
+                  <div class="col-md-4 daily-visit">
+                    <ul class="nav md-pills nav-justified pills-secondary">
+                      <li class="nav-item">
+                          <a class="nav-link active" data-toggle="tab" href="#panel4" role="tab">Daily Visit</a>
+                      </li>
+                      <!-- <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#panel11" role="tab">Link</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#panel12" role="tab">Link</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#panel13" role="tab">Help</a>
+                      </li> -->
+                    </ul>
+
+                  <!-- Tab panels -->
+                  <div class="tab-content">
+
+                      <!--Panel 1-->
+                      <div class="tab-pane fade in show active" id="panel11" role="tabpanel">
+                          <br>
+
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
+                              reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
+                              porro voluptate odit minima.</p>
+
+                      </div>
+                      <!--/.Panel 1-->
+
+                      <!--Panel 2-->
+                      <!-- <div class="tab-pane fade" id="panel12" role="tabpanel">
+                          <br>
+
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
+                              reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
+                              porro voluptate odit minima.</p>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
+                              reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
+                              porro voluptate odit minima.</p>
+
+                      </div> -->
+                      <!--/.Panel 2-->
+
+                      <!--Panel 3-->
+                      <!-- <div class="tab-pane fade" id="panel13" role="tabpanel">
+                          <br>
+
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
+                              reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
+                              porro voluptate odit minima.</p>
+
+                      </div> -->
+                      <!--/.Panel 3-->
+
+                      <!--Panel 4-->
+                      <!-- <div class="tab-pane fade" id="panel14" role="tabpanel">
+                          <br>
+
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
+                              reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
+                              porro voluptate odit minima.</p>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
+                              reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
+                              porro voluptate odit minima.</p>
+
+                      </div> -->
+                      <!--/.Panel 4-->
+
+                  </div>
+
+                  </div>
+
+
+                  <!--/.Daily Visit-->
 
               </div>
 
             </div>
-          <!--/. Taking Students Panels (large version)-->
+          <!--/.Taking Students Panels (large version)-->
 
 
           </div>

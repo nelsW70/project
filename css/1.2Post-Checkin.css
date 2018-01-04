@@ -12,6 +12,7 @@ greenLight rgb(187, 213, 136)
 yellowGold rgb(223, 175, 64)
 */
 
+
 /* navbar additional styling */
 
 .navbar {
@@ -39,41 +40,51 @@ yellowGold rgb(223, 175, 64)
   color: rgb(33, 33, 33);
 }
 
-/* navbar dropdown color */
 
-.dropdown .dropdown-menu.header-drop .dropdown-item:hover, .dropdown .dropdown-menu.dropdown-primary .dropdown-item:active {
-  background-color:  rgb(70, 97, 29); }
+/* main-content */
 
 .main-content {
   padding-top: .75%;
 }
 
+
+/* navbar dropdown color */
+
+.dropdown .dropdown-menu.header-drop .dropdown-item:hover, .dropdown .dropdown-menu.dropdown-primary .dropdown-item:active {
+  background-color:  rgb(70, 97, 29); }
+
 /* secondary nav pills */
 
-.pills-secondary .nav-item .nav-link.active, .tabs-secondary {
+#post-checkin .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
   background-color: rgb(144, 174, 89);
 }
 
-.pills-secondary {
+#post-checkin .pills-secondary {
   font-size: .9rem;
   font-weight: 400;
 }
 
-.main-content .tab-content {
+#post-checkin .main-content .tab-content {
   padding: 0rem 1rem;
 }
 
+
+
 /* student-list collapsed */
 
-.student-list-collapsed {
+#post-checkin .collapsed-student {
+  margin-top: .6rem;
+}
+
+#post-checkin .student-list-collapsed {
   min-height: 60vh;
 }
 
-.card-body.student-list-collapsed {
+#post-checkin .card-body.student-list-collapsed {
   padding: 0rem;
 }
 
-.student-list-collapsed h4 {
+#post-checkin .student-list-collapsed h5 {
   writing-mode: tb-rl;
   transform: rotate(-180deg);
   margin-top: 2rem;
@@ -82,36 +93,55 @@ yellowGold rgb(223, 175, 64)
   margin-right: auto;
 }
 
-.fa-caret-square-o-right {
+#post-checkin .fa-toggle-right {
   font-size: 3rem;
   padding-top: 1rem;
 }
 
-/* footer */
+/* Student Id Card 1.2 */
 
-footer.page-footer {
-  margin-top: 10px;
+#post-checkin .student-info .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
+  background-color: rgb(223, 175, 64);
+  max-width: 8rem;
 }
 
-.page-footer .card {
-  height: 12vh;
-}
-
-/* Student Id Card 1.1 */
-
-#student-id-checkincopy .card img {
+#post-checkin #student-id-post-checkincopy .card img {
   max-width: 35%;
 }
 
-.student-id .card {
+#post-checkin .student-id .card {
   min-height: 60vh;
-  margin-top: 3.5rem;
 }
 
-.student-id .list-group-item {
-  font-size: 1rem;
+#post-checkin .student-id .list-group-item {
+  font-size: .95rem;
+  font-weight: 300;
+}
+
+/* Daily Visit */
+
+#post-checkin .daily-visit .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
+  background-color: rgb(223, 175, 64);
+  max-width: 8rem;
+}
+
+#post-checkin .daily-visit .nav-link {
+  font-size: .9rem;
   font-weight: 400;
 }
+
+
+/* footer */
+
+#post-checkin footer.page-footer {
+  margin-top: 10px;
+}
+
+#post-checkin .page-footer .card {
+  height: 12vh;
+}
+
+
 
 /* hides/shows #student-list-tablet and #checkin-student-list-large divs
    (note: there are of course more elegant ways to do this but this was the

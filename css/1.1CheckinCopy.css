@@ -46,50 +46,50 @@ yellowGold rgb(223, 175, 64)
 
 /* secondary nav pills */
 
-.pills-secondary .nav-item .nav-link.active, .tabs-secondary {
+#checkin-copy .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
   background-color: rgb(144, 174, 89);
 }
 
-.pills-secondary {
+#checkin-copy .pills-secondary {
   font-size: .9rem;
   font-weight: 400;
 }
 
-.main-content {
+#checkin-copy .main-content {
   padding-top: .75%;
 }
 
-.main-content .tab-content {
+#checkin-copy .main-content .tab-content {
   padding: 0rem 1rem;
 }
 
 /*info cards*/
 
-.student-list {
+#checkin-copy .student-list {
   padding-right: 0px;
   padding-left: 0px;
 }
 
-.student-list .nav-item .nav-link.active, .tabs-secondary {
+#checkin-copy .student-list .nav-item .nav-link.active, .tabs-secondary {
   background-color: rgb(223, 175, 64);
 }
 
-.student-list .nav-link {
+#checkin-copy .student-list .nav-link {
   font-size: .9rem;
   font-weight: 400;
 }
 
-.expecting-general-seen li {
+#checkin-copy .expecting-general-seen li {
   padding-left: .5rem;
 }
 
-.student-list .card {
+#checkin-copy .student-list .card {
   height: 60vh;
 }
 
 /* expected students table */
 
-.table-wrapper-2 {
+#checkin-copy .table-wrapper-2 {
   display: block;
   max-height: 60vh;
   overflow-y: auto;
@@ -98,34 +98,34 @@ yellowGold rgb(223, 175, 64)
 
 /* expected students table headers */
 
-table .th-lg {
+#checkin-copy table .th-lg {
   min-width: 5rem;
-}
-
-/* footer */
-
-footer.page-footer {
-  margin-top: 10px;
-}
-
-.page-footer .card {
-  height: 12vh;
 }
 
 /* Student Id Card 1.1 */
 
-#student-id-checkincopy .card img {
+#checkin-copy #student-id-checkincopy .card img {
   max-width: 35%;
 }
 
-.student-id .card {
+#checkin-copy .student-id .card {
   min-height: 60vh;
   margin-top: 3.5rem;
 }
 
-.student-id .list-group-item {
-  font-size: 1rem;
-  font-weight: 400;
+#checkin-copy .student-id .list-group-item {
+  font-size: .95rem;
+  font-weight: 300;
+}
+
+/* footer */
+
+#checkin-copy footer.page-footer {
+  margin-top: 10px;
+}
+
+#checkin-copy .page-footer .card {
+  height: 12vh;
 }
 
 /* hides/shows #student-list-tablet and #checkin-student-list-large divs
@@ -133,13 +133,13 @@ footer.page-footer {
    fastest way to give you an idea of how it should look) */
 
 @media only screen and (min-width: 1200px) {
-    #checkin-copy-tablet {
+    #checkin-copy #checkin-copy-tablet {
       display: none;
     }
 }
 
 @media only screen and (max-width: 1200px) {
-    #checkin-copy-large {
+    #checkin-copy #checkin-copy-large {
       display: none;
     }
 }
