@@ -55,37 +55,37 @@ yellowGold rgb(223, 175, 64)
 
 /* secondary nav pills */
 
-#post-checkin .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
+#begindataentry .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
   background-color: rgb(144, 174, 89);
 }
 
-#post-checkin .pills-secondary {
+#begindataentry .pills-secondary {
   font-size: .9rem;
   font-weight: 400;
 }
 
-#post-checkin .main-content .tab-content {
+#begindataentry .main-content .tab-content {
   padding: 0rem 1rem;
 }
 
 /* student-list collapsed */
 
-#post-checkin .collapsed-student {
+#begindataentry .collapsed-student {
   margin-top: .6rem;
   padding-left: 0px;
   padding-right: 0px;
   max-width: 3rem;
 }
 
-#post-checkin .student-list-collapsed {
+#begindataentry .student-list-collapsed {
   min-height: 65vh;
 }
 
-#post-checkin .card-body.student-list-collapsed {
+#begindataentry .card-body.student-list-collapsed {
   padding: 0rem;
 }
 
-#post-checkin .student-list-collapsed h5 {
+#begindataentry .student-list-collapsed h5 {
   writing-mode: tb-rl;
   transform: rotate(-180deg);
   margin-top: 2rem;
@@ -94,109 +94,109 @@ yellowGold rgb(223, 175, 64)
   margin-right: auto;
 }
 
-#post-checkin .fa-toggle-right {
+#begindataentry .fa-toggle-right {
   font-size: 2.5rem;
   padding-top: 1rem;
 }
 
 /* Student Id Card 1.2 */
 
-#post-checkin .tab-content .student-id-tab {
+#begindataentry  .tab-content .student-id-tab {
     padding: 0rem 0rem;
     margin-top: -1.5rem;
 }
 
-#post-checkin .student-info .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
+#begindataentry .student-info .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
   background-color: rgb(223, 175, 64);
   max-width: 10rem;
 }
 
-#post-checkin #student-id-post-checkincopy .card img {
+#begindataentry #student-id-post-checkincopy .card img {
   max-width: 35%;
 }
 
-#post-checkin .student-id .card {
+#begindataentry .student-id .card {
   min-height: 60vh;
   padding-top: .5rem;
 }
 
-#post-checkin .student-id .list-group-item {
+#begindataentry .student-id .list-group-item {
   font-size: .95rem;
   font-weight: 300;
 }
 
 /* Daily Visit */
 
-#post-checkin .tab-content .daily-visit-tab {
+#begindataentry .tab-content .daily-visit-tab {
   padding: 0rem 0rem;
 }
 
-#post-checkin .daily-visit .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
+#begindataentry .daily-visit .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
   background-color: rgb(223, 175, 64);
   max-width: 10rem;
 }
 
-#post-checkin #daily-visit-panel-nav .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
+#begindataentry #daily-visit-panel-nav .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
   background-color: rgb(70, 97, 29);
   max-width: 10rem;
 }
 
-#post-checkin .daily-visit .nav-link {
+#begindataentry .daily-visit .nav-link {
   font-size: .9rem;
   font-weight: 400;
 }
 
-#post-checkin #daily-visit-panel-nav .md-pills li {
+#begindataentry #daily-visit-panel-nav .md-pills li {
   padding: .6rem .1rem;
 }
 
-#post-checkin #daily-visit-panel-nav {
+#begindataentry #daily-visit-panel-nav {
   margin-top: -.5rem;
 }
 
 /* Daily Visit Input Forms */
 
-#post-checkin .daily-visit-select-text {
+#begindataentry .daily-visit-select-text {
     font-size: 1rem;
     font-weight: 300;
 }
 
-#post-checkin .select-wrapper input.select-dropdown {
+#begindataentry .select-wrapper input.select-dropdown {
     font-size: 1rem;
     font-weight: 300;
 }
 
-#post-checkin .daily-visit-select .dropdown-info .dropdown-content li a, .dropdown-info .dropdown-content li span:hover, .dropdown-info .dropdown-content li.active {
+#begindataentry .daily-visit-select .dropdown-info .dropdown-content li a, .dropdown-info .dropdown-content li span:hover, .dropdown-info .dropdown-content li.active {
   background-color: rgb(70, 97, 29);
 }
 
-#post-checkin .daily-visit-select .dropdown-content li>a, .dropdown-content li>span {
+#begindataentry .daily-visit-select .dropdown-content li>a, .dropdown-content li>span {
   color: black;
 }
 
-#post-checkin .shadow-textarea textarea.form-control::placeholder {
+#begindataentry .shadow-textarea textarea.form-control::placeholder {
     font-weight: 300;
 }
-#post-checkin .shadow-textarea textarea.form-control {
+#begindataentry .shadow-textarea textarea.form-control {
     padding-left: 0.8rem;
 }
 
-#post-checkin .card-body.daily-visit-forms {
+#begindataentry .card-body.daily-visit-forms {
   height: 55vh;
 }
 
-#post-checkin #exampleFormControlTextarea1, #exampleFormControlTextarea2 {
+#begindataentry #exampleFormControlTextarea1, #exampleFormControlTextarea2 {
   max-height: 5rem;
 }
-#post-checkin #exampleFormControlTextarea1 {
+#begindataentry #exampleFormControlTextarea1 {
   min-height: 1.5rem
 }
 
-#post-checkin #exampleFormControlTextarea2 {
+#begindataentry #exampleFormControlTextarea2 {
   min-height: 4rem;
 }
 
-#post-checkin .daily-visit-button .btn-outline-info {
+#begindataentry .daily-visit-button .btn-outline-info {
     border: 1px solid rgb(223, 175, 64);
     color: black!important;
     background-color: transparent;
@@ -206,11 +206,11 @@ yellowGold rgb(223, 175, 64)
 
 /* footer */
 
-#post-checkin footer.page-footer {
+#begindataentry footer.page-footer {
   margin-top: 10px;
 }
 
-#post-checkin .page-footer .card {
+#begindataentry .page-footer .card {
   height: 12vh;
 }
 

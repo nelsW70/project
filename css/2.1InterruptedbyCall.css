@@ -46,50 +46,50 @@ yellowGold rgb(223, 175, 64)
 
 /* secondary nav pills */
 
-#checkin-copy .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
+#interruptedbycall .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
   background-color: rgb(144, 174, 89);
 }
 
-#checkin-copy .pills-secondary {
+#interruptedbycall .pills-secondary {
   font-size: .9rem;
   font-weight: 400;
 }
 
-#checkin-copy .main-content {
+#interruptedbycall .main-content {
   padding-top: .75%;
 }
 
-#checkin-copy .main-content .tab-content {
+#interruptedbycall .main-content .tab-content {
   padding: 0rem 1rem;
 }
 
 /*info cards*/
 
-#checkin-copy .student-list {
+#interruptedbycall .student-list {
   padding-right: 0px;
   padding-left: 0px;
 }
 
-#checkin-copy .student-list .nav-item .nav-link.active, .tabs-secondary {
+#interruptedbycall .student-list .nav-item .nav-link.active, .tabs-secondary {
   background-color: rgb(223, 175, 64);
 }
 
-#checkin-copy .student-list .nav-link {
+#interruptedbycall .student-list .nav-link {
   font-size: .9rem;
   font-weight: 400;
 }
 
-#checkin-copy .expecting-general-seen li {
+#interruptedbycall .expecting-general-seen li {
   padding-left: .5rem;
 }
 
-#checkin-copy .student-list .card {
+#interruptedbycall .student-list .card {
   height: 60vh;
 }
 
 /* expected students table */
 
-#checkin-copy .table-wrapper-2 {
+#interruptedbycall .table-wrapper-2 {
   display: block;
   max-height: 60vh;
   overflow-y: auto;
@@ -98,34 +98,48 @@ yellowGold rgb(223, 175, 64)
 
 /* expected students table headers */
 
-#checkin-copy table .th-lg {
+#interruptedbycall table .th-lg {
   min-width: 5rem;
 }
 
+/* general tab */
+#interruptedbycall .md-form {
+  margin: 0 10%;
+  width: 100%;
+}
+
+#interruptedbycall .select-wrapper {
+  margin: 0 auto;
+  width: 50%;
+}
+
+
 /* Student Id Card 1.1 */
 
-#checkin-copy #student-id-checkincopy .card img {
+#interruptedbycall #student-id-checkincopy .card img {
   max-width: 35%;
 }
 
-#checkin-copy .student-id .card {
+#interruptedbycall .student-id .card {
   min-height: 60vh;
   margin-top: 3.5rem;
+  margin-top: 3.5rem;
   padding-top: .5rem;
+  filter: grayscale(100%);
 }
 
-#checkin-copy .student-id .list-group-item {
+#interruptedbycall .student-id .list-group-item {
   font-size: .95rem;
   font-weight: 300;
 }
 
 /* footer */
 
-#checkin-copy footer.page-footer {
+#interruptedbycall footer.page-footer {
   margin-top: 10px;
 }
 
-#checkin-copy .page-footer .card {
+#interruptedbycall .page-footer .card {
   height: 12vh;
 }
 
@@ -134,13 +148,13 @@ yellowGold rgb(223, 175, 64)
    fastest way to give you an idea of how it should look) */
 
 @media only screen and (min-width: 1200px) {
-    #checkin-copy #checkin-copy-tablet {
+    #interruptedbycall #checkin-copy-tablet {
       display: none;
     }
 }
 
 @media only screen and (max-width: 1200px) {
-    #checkin-copy #checkin-copy-large {
+    #interruptedbycall #checkin-copy-large {
       display: none;
     }
 }
