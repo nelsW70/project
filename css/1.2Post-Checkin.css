@@ -139,6 +139,20 @@ yellowGold rgb(223, 175, 64)
 
 /* Daily Visit Input Forms */
 
+#post-checkin .daily-visit-select-text {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+#post-checkin .select-wrapper input.select-dropdown {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+#post-checkin .daily-visit-select .dropdown-content li>a, .dropdown-content li>span {
+  color: black;
+}
+
 #post-checkin .shadow-textarea textarea.form-control::placeholder {
     font-weight: 300;
 }
@@ -150,9 +164,24 @@ yellowGold rgb(223, 175, 64)
   height: 56vh;
 }
 
-#exampleFormControlTextarea1, #exampleFormControlTextarea2 {
+#post-checkin #exampleFormControlTextarea1, #exampleFormControlTextarea2 {
   max-height: 5rem;
 }
+#post-checkin #exampleFormControlTextarea1 {
+  min-height: 1.5rem
+}
+
+#post-checkin #exampleFormControlTextarea2 {
+  min-height: 4rem;
+}
+
+#post-checkin .daily-visit-button .btn-outline-info {
+    border: 1px solid rgb(223, 175, 64);
+    color: black!important;
+    background-color: transparent;
+}
+
+
 
 /* footer */
 
