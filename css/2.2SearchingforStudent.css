@@ -46,55 +46,65 @@ yellowGold rgb(223, 175, 64)
 
 /* secondary nav pills */
 
-#interruptedbycall .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
+#searchingforstudent .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
   background-color: rgb(144, 174, 89);
 }
 
-#interruptedbycall .pills-secondary {
+#searchingforstudent .pills-secondary {
   font-size: .9rem;
   font-weight: 400;
 }
 
-#interruptedbycall .main-content {
+#searchingforstudent .main-content {
   padding-top: .75%;
 }
 
-#interruptedbycall .main-content .tab-content {
+#searchingforstudent .main-content .tab-content {
   padding: 0rem 1rem;
 }
 
 /*info cards*/
 
-#interruptedbycall .student-list {
+#searchingforstudent .student-list {
   padding-right: 0px;
   padding-left: 0px;
 }
 
-#interruptedbycall .student-list .nav-item .nav-link.active, .tabs-secondary {
+#searchingforstudent .student-list .nav-item .nav-link.active, .tabs-secondary {
   background-color: rgb(223, 175, 64);
 }
 
-#interruptedbycall .student-list .nav-link {
+#searchingforstudent .student-list .nav-link {
   font-size: .9rem;
   font-weight: 400;
 }
 
-#interruptedbycall .expecting-general-seen li {
+#searchingforstudent .expecting-general-seen li {
   padding-left: .5rem;
 }
 
-#interruptedbycall .student-list .card {
+#searchingforstudent .student-list .card {
   height: 60vh;
 }
 
 /* collapse icon in nav */
-#interruptedbycall #icon-collapse {
+#searchingforstudent #icon-collapse {
   margin-right: -.75rem;
+}
+
+/* select */
+
+#searchingforstudent .searching-select .dropdown-content li>a, .dropdown-content li>span {
+  color: black;
+}
+
+#searchingforstudent .dropdown-primary .dropdown-content li a, .dropdown-primary .dropdown-content li span:hover, .dropdown-primary .dropdown-content li.active {
+  background-color: rgb(70, 97, 29);
 }
 
 /* expected students table */
 
-#interruptedbycall .table-wrapper-2 {
+#searchingforstudent .table-wrapper-2 {
   display: block;
   max-height: 60vh;
   overflow-y: auto;
@@ -103,24 +113,25 @@ yellowGold rgb(223, 175, 64)
 
 /* expected students table headers */
 
-#interruptedbycall table .th-lg {
+#searchingforstudent table .th-lg {
   min-width: 5rem;
 }
 
 /* general tab */
-#interruptedbycall .md-form {
+
+#searchingforstudent .md-form {
   margin: 0 10%;
   width: 100%;
 }
 
-#interruptedbycall .select-wrapper {
+#searchingforstudent .select-wrapper {
   margin: 0 auto;
   width: 50%;
 }
 
 /* general-student table */
 
-#interruptedbycall .table.general-student {
+#searchingforstudent .table.general-student {
   max-width: 90%;
   margin: 0 auto;
 }
@@ -128,11 +139,11 @@ yellowGold rgb(223, 175, 64)
 
 /* Student Id Card 1.1 */
 
-#interruptedbycall #student-id-checkincopy .card img {
+#searchingforstudent #student-id-checkincopy .card img {
   max-width: 35%;
 }
 
-#interruptedbycall .student-id .card {
+#searchingforstudent .student-id .card {
   min-height: 60vh;
   margin-top: 3.5rem;
   margin-top: 3.5rem;
@@ -140,18 +151,18 @@ yellowGold rgb(223, 175, 64)
   filter: grayscale(100%);
 }
 
-#interruptedbycall .student-id .list-group-item {
+#searchingforstudent .student-id .list-group-item {
   font-size: .95rem;
   font-weight: 300;
 }
 
 /* footer */
 
-#interruptedbycall footer.page-footer {
+#searchingforstudent footer.page-footer {
   margin-top: 10px;
 }
 
-#interruptedbycall .page-footer .card {
+#searchingforstudent .page-footer .card {
   height: 12vh;
 }
 
@@ -160,13 +171,13 @@ yellowGold rgb(223, 175, 64)
    fastest way to give you an idea of how it should look) */
 
 @media only screen and (min-width: 1200px) {
-    #interruptedbycall #checkin-copy-tablet {
+    #searchingforstudent #checkin-copy-tablet {
       display: none;
     }
 }
 
 @media only screen and (max-width: 1200px) {
-    #interruptedbycall #checkin-copy-large {
+    #searchingforstudent #checkin-copy-large {
       display: none;
     }
 }
