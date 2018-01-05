@@ -68,8 +68,6 @@ yellowGold rgb(223, 175, 64)
   padding: 0rem 1rem;
 }
 
-
-
 /* student-list collapsed */
 
 #post-checkin .collapsed-student {
@@ -79,7 +77,7 @@ yellowGold rgb(223, 175, 64)
 }
 
 #post-checkin .student-list-collapsed {
-  min-height: 67.5vh;
+  min-height: 65vh;
 }
 
 #post-checkin .card-body.student-list-collapsed {
@@ -102,9 +100,14 @@ yellowGold rgb(223, 175, 64)
 
 /* Student Id Card 1.2 */
 
+#post-checkin  .tab-content .student-id-tab {
+    padding: 0rem 0rem;
+    margin-top: -1.5rem;
+}
+
 #post-checkin .student-info .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
   background-color: rgb(223, 175, 64);
-  max-width: 8rem;
+  max-width: 10rem;
 }
 
 #post-checkin #student-id-post-checkincopy .card img {
@@ -122,10 +125,18 @@ yellowGold rgb(223, 175, 64)
 
 /* Daily Visit */
 
+#post-checkin .tab-content .daily-visit-tab {
+  padding: 0rem 0rem;
+}
 
 #post-checkin .daily-visit .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
   background-color: rgb(223, 175, 64);
-  max-width: 8rem;
+  max-width: 10rem;
+}
+
+#post-checkin #daily-visit-panel-nav .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
+  background-color: rgb(70, 97, 29);
+  max-width: 10rem;
 }
 
 #post-checkin .daily-visit .nav-link {
@@ -135,6 +146,10 @@ yellowGold rgb(223, 175, 64)
 
 #post-checkin #daily-visit-panel-nav .md-pills li {
   padding: .6rem .1rem;
+}
+
+#post-checkin #daily-visit-panel-nav {
+  margin-top: -.5rem;
 }
 
 /* Daily Visit Input Forms */
@@ -149,6 +164,10 @@ yellowGold rgb(223, 175, 64)
     font-weight: 300;
 }
 
+#post-checkin .daily-visit-select .dropdown-info .dropdown-content li a, .dropdown-info .dropdown-content li span:hover, .dropdown-info .dropdown-content li.active {
+  background-color: rgb(70, 97, 29);
+}
+
 #post-checkin .daily-visit-select .dropdown-content li>a, .dropdown-content li>span {
   color: black;
 }
@@ -161,7 +180,7 @@ yellowGold rgb(223, 175, 64)
 }
 
 #post-checkin .card-body.daily-visit-forms {
-  height: 56vh;
+  height: 55vh;
 }
 
 #post-checkin #exampleFormControlTextarea1, #exampleFormControlTextarea2 {
