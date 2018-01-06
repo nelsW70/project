@@ -89,6 +89,7 @@ yellowGold rgb(223, 175, 64)
 
 #interruptedbycall .student-list .card {
   height: 60vh;
+  margin-top: -.25rem; /* to compensate for toggle icon */
 }
 
 /* collapse icon in nav */
@@ -112,14 +113,20 @@ yellowGold rgb(223, 175, 64)
 }
 
 /* general tab */
+
+#interruptedbycall .active-gold input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid rgb(223, 175, 64);
+    box-shadow: 0 1px 0 0 rgb(223, 175, 64);
+}
+
 #interruptedbycall .md-form {
-  margin: 0 10%;
+  margin: 0 5%;
   width: 100%;
 }
 
 #interruptedbycall .select-wrapper {
-  margin: 0 auto;
-  width: 50%;
+    margin: 0 5%;
+    width: 25%;
 }
 
 #interruptedbycall .interrupted-select .dropdown-content li>a, .dropdown-content li>span {
@@ -127,7 +134,7 @@ yellowGold rgb(223, 175, 64)
 }
 
 #interruptedbycall .dropdown-primary .dropdown-content li a, .dropdown-primary .dropdown-content li span:hover, .dropdown-primary .dropdown-content li.active {
-  background-color: rgb(70, 97, 29);
+  background-color: rgb(223, 175, 64);
 }
 
 /* general-student table */

@@ -89,21 +89,12 @@ yellowGold rgb(223, 175, 64)
 
 #returnedjacktoclass .student-list .card {
   height: 60vh;
+  margin-top: -.25rem; /* to compensate for toggle icon */
 }
 
 /* collapse icon in nav */
 #returnedjacktoclass #icon-collapse {
   margin-right: -.75rem;
-}
-
-/* select */
-
-#returnedjacktoclass .searching-select .dropdown-content li>a, .dropdown-content li>span {
-  color: black;
-}
-
-#returnedjacktoclass .dropdown-primary .dropdown-content li a, .dropdown-primary .dropdown-content li span:hover, .dropdown-primary .dropdown-content li.active {
-  background-color: rgb(70, 97, 29);
 }
 
 /* expected students table */
@@ -121,20 +112,34 @@ yellowGold rgb(223, 175, 64)
   min-width: 5rem;
 }
 
-/* expected students table select */
-
-
 
 /* general tab */
 
 #returnedjacktoclass .md-form {
-  margin: 0 10%;
+  margin: 0 5%;
   width: 100%;
 }
 
 #returnedjacktoclass .select-wrapper {
-  margin: 0 auto;
-  width: 50%;
+  margin: 0 5%;
+  width: 25%;
+}
+
+/* general tab search*/
+
+#returnedjacktoclass .active-gold input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid rgb(223, 175, 64);
+    box-shadow: 0 1px 0 0 rgb(223, 175, 64);
+}
+
+/* general tab select */
+
+#returnedjacktoclass .searching-select .dropdown-content li>a, .dropdown-content li>span {
+  color: black;
+}
+
+#returnedjacktoclass .dropdown-primary .dropdown-content li a, .dropdown-primary .dropdown-content li span:hover, .dropdown-primary .dropdown-content li.active {
+  background-color: rgb(223, 175, 64);
 }
 
 /* general-student table */
