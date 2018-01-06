@@ -1,0 +1,238 @@
+/* color palette */
+
+/*
+whiteLight rgb(255, 255, 255)
+blackOnyx rgb(33, 33, 33)
+greyDark rgb(117, 117, 117)
+greyLight rgb(189, 189, 189)
+blueDeep rgb(65, 90, 122)
+greenDark rgb(70, 97, 29)
+greenMiddle rgb(144, 174, 89)
+greenLight rgb(187, 213, 136)
+yellowGold rgb(223, 175, 64)
+*/
+
+
+/* navbar additional styling */
+
+.navbar {
+    padding-right: 2rem!important;
+}
+
+.navbar-brand img {
+  height: 2.5rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: .5rem;
+}
+
+.nav-link {
+  color: rgb(117, 117, 117);
+}
+
+.nav-link:hover {
+  color: rgb(33, 33, 33);
+}
+
+.nav-link:active {
+  color: rgb(33, 33, 33);
+}
+
+
+/* main-content */
+
+.main-content {
+  padding-top: .75%;
+}
+
+
+/* navbar dropdown color */
+
+.dropdown .dropdown-menu.header-drop .dropdown-item:hover, .dropdown .dropdown-menu.dropdown-primary .dropdown-item:active {
+  background-color:  rgb(70, 97, 29); }
+
+/* secondary nav pills */
+
+#administeredmedication .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
+  background-color: rgb(144, 174, 89);
+}
+
+#administeredmedication .pills-secondary {
+  font-size: .9rem;
+  font-weight: 400;
+}
+
+#administeredmedication .main-content .tab-content {
+  padding: 0rem 1rem;
+}
+
+/* student-list collapsed */
+
+#administeredmedication .collapsed-student {
+  margin-top: .6rem;
+  padding-left: 0px;
+  padding-right: 0px;
+  max-width: 3rem;
+}
+
+#administeredmedication .student-list-collapsed {
+  min-height: 65vh;
+}
+
+#administeredmedication .card-body.student-list-collapsed {
+  padding: 0rem;
+}
+
+#administeredmedication .student-list-collapsed h5 {
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#administeredmedication .fa-toggle-right {
+  font-size: 2.5rem;
+  padding-top: 1rem;
+}
+
+/* Student Id Card 1.2 */
+
+#administeredmedication  .tab-content .student-id-tab {
+    padding: 0rem 0rem;
+    margin-top: -1.5rem;
+}
+
+#administeredmedication .student-info .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
+  background-color: rgb(223, 175, 64);
+  max-width: 10rem;
+}
+
+#administeredmedication #student-id-post-checkincopy .card img {
+  max-width: 35%;
+}
+
+#administeredmedication .student-id .card {
+  min-height: 60vh;
+  padding-top: .5rem;
+}
+
+#administeredmedication .student-id .list-group-item {
+  font-size: .95rem;
+  font-weight: 300;
+}
+
+/* Daily Visit */
+
+#administeredmedication #gavemed {
+  background-color: grey;
+  border: none;
+}
+
+#administeredmedication .tab-content .daily-visit-tab {
+  padding: 0rem 0rem;
+}
+
+#administeredmedication .daily-visit .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
+  background-color: rgb(223, 175, 64);
+  max-width: 10rem;
+}
+
+#administeredmedication #daily-visit-panel-nav .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
+  background-color: rgb(70, 97, 29);
+  max-width: 10rem;
+}
+
+#administeredmedication .daily-visit .nav-link {
+  font-size: .9rem;
+  font-weight: 400;
+}
+
+#administeredmedication #daily-visit-panel-nav .md-pills li {
+  padding: .6rem .1rem;
+}
+
+#administeredmedication #daily-visit-panel-nav {
+  margin-top: -.5rem;
+}
+
+/* Daily Visit Input Forms */
+
+#administeredmedication .daily-visit-select-text {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+#administeredmedication .select-wrapper input.select-dropdown {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+#administeredmedication .daily-visit-select .dropdown-info .dropdown-content li a, .dropdown-info .dropdown-content li span:hover, .dropdown-info .dropdown-content li.active {
+  background-color: rgb(70, 97, 29);
+}
+
+#administeredmedication .daily-visit-select .dropdown-content li>a, .dropdown-content li>span {
+  color: black;
+}
+
+#administeredmedication .shadow-textarea textarea.form-control::placeholder {
+    font-weight: 300;
+}
+#administeredmedication .shadow-textarea textarea.form-control {
+    padding-left: 0.8rem;
+}
+
+#administeredmedication .card-body.daily-visit-forms {
+  height: 55vh;
+}
+
+#administeredmedication #exampleFormControlTextarea1, #exampleFormControlTextarea2 {
+  max-height: 5rem;
+}
+#administeredmedication #exampleFormControlTextarea1 {
+  min-height: 1.5rem
+}
+
+#administeredmedication #exampleFormControlTextarea2 {
+  min-height: 4rem;
+}
+
+#administeredmedication .daily-visit-button .btn-outline-info {
+    border: 1px solid rgb(223, 175, 64);
+    color: black!important;
+    background-color: transparent;
+}
+
+
+
+/* footer */
+
+#administeredmedication footer.page-footer {
+  margin-top: 10px;
+}
+
+#administeredmedication .page-footer .card {
+  height: 12vh;
+}
+
+
+
+/* hides/shows #student-list-tablet and #checkin-student-list-large divs
+   (note: there are of course more elegant ways to do this but this was the
+   fastest way to give you an idea of how it should look) */
+
+/*@media only screen and (min-width: 1200px) {
+    #checkin-copy-tablet {
+      display: none;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #checkin-copy-large {
+      display: none;
+    }
+}*/

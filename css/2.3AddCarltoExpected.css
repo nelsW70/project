@@ -46,55 +46,65 @@ yellowGold rgb(223, 175, 64)
 
 /* secondary nav pills */
 
-#interruptedbycall .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
+#addtoexpected .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
   background-color: rgb(144, 174, 89);
 }
 
-#interruptedbycall .pills-secondary {
+#addtoexpected .pills-secondary {
   font-size: .9rem;
   font-weight: 400;
 }
 
-#interruptedbycall .main-content {
+#addtoexpected .main-content {
   padding-top: .75%;
 }
 
-#interruptedbycall .main-content .tab-content {
+#addtoexpected .main-content .tab-content {
   padding: 0rem 1rem;
 }
 
 /*info cards*/
 
-#interruptedbycall .student-list {
+#addtoexpected .student-list {
   padding-right: 0px;
   padding-left: 0px;
 }
 
-#interruptedbycall .student-list .nav-item .nav-link.active, .tabs-secondary {
+#addtoexpected .student-list .nav-item .nav-link.active, .tabs-secondary {
   background-color: rgb(223, 175, 64);
 }
 
-#interruptedbycall .student-list .nav-link {
+#addtoexpected .student-list .nav-link {
   font-size: .9rem;
   font-weight: 400;
 }
 
-#interruptedbycall .expecting-general-seen li {
+#addtoexpected .expecting-general-seen li {
   padding-left: .5rem;
 }
 
-#interruptedbycall .student-list .card {
+#addtoexpected .student-list .card {
   height: 60vh;
 }
 
 /* collapse icon in nav */
-#interruptedbycall #icon-collapse {
+#addtoexpected #icon-collapse {
   margin-right: -.75rem;
+}
+
+/* select */
+
+#addtoexpected .searching-select .dropdown-content li>a, .dropdown-content li>span {
+  color: black;
+}
+
+#addtoexpected .dropdown-primary .dropdown-content li a, .dropdown-primary .dropdown-content li span:hover, .dropdown-primary .dropdown-content li.active {
+  background-color: rgb(70, 97, 29);
 }
 
 /* expected students table */
 
-#interruptedbycall .table-wrapper-2 {
+#addtoexpected .table-wrapper-2 {
   display: block;
   max-height: 60vh;
   overflow-y: auto;
@@ -103,32 +113,29 @@ yellowGold rgb(223, 175, 64)
 
 /* expected students table headers */
 
-#interruptedbycall table .th-lg {
+#addtoexpected table .th-lg {
   min-width: 5rem;
 }
 
+/* expected students table select */
+
+
+
 /* general tab */
-#interruptedbycall .md-form {
+
+#addtoexpected .md-form {
   margin: 0 10%;
   width: 100%;
 }
 
-#interruptedbycall .select-wrapper {
+#addtoexpected .select-wrapper {
   margin: 0 auto;
   width: 50%;
 }
 
-#interruptedbycall .interrupted-select .dropdown-content li>a, .dropdown-content li>span {
-  color: black;
-}
-
-#interruptedbycall .dropdown-primary .dropdown-content li a, .dropdown-primary .dropdown-content li span:hover, .dropdown-primary .dropdown-content li.active {
-  background-color: rgb(70, 97, 29);
-}
-
 /* general-student table */
 
-#interruptedbycall .table.general-student {
+#addtoexpected .table.general-student {
   max-width: 90%;
   margin: 0 auto;
 }
@@ -136,11 +143,11 @@ yellowGold rgb(223, 175, 64)
 
 /* Student Id Card 1.1 */
 
-#interruptedbycall #student-id-checkincopy .card img {
+#addtoexpected #student-id-checkincopy .card img {
   max-width: 35%;
 }
 
-#interruptedbycall .student-id .card {
+#addtoexpected .student-id .card {
   min-height: 60vh;
   margin-top: 3.5rem;
   margin-top: 3.5rem;
@@ -148,18 +155,18 @@ yellowGold rgb(223, 175, 64)
   filter: grayscale(100%);
 }
 
-#interruptedbycall .student-id .list-group-item {
+#addtoexpected .student-id .list-group-item {
   font-size: .95rem;
   font-weight: 300;
 }
 
 /* footer */
 
-#interruptedbycall footer.page-footer {
+#addtoexpected footer.page-footer {
   margin-top: 10px;
 }
 
-#interruptedbycall .page-footer .card {
+#addtoexpected .page-footer .card {
   height: 12vh;
 }
 
@@ -168,13 +175,13 @@ yellowGold rgb(223, 175, 64)
    fastest way to give you an idea of how it should look) */
 
 @media only screen and (min-width: 1200px) {
-    #interruptedbycall #checkin-copy-tablet {
+    #addtoexpected #checkin-copy-tablet {
       display: none;
     }
 }
 
 @media only screen and (max-width: 1200px) {
-    #interruptedbycall #checkin-copy-large {
+    #addtoexpected #checkin-copy-large {
       display: none;
     }
 }

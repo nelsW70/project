@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>1.4BacktoJack</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/1.4BacktoJack.css" rel="stylesheet">
+</head>
+
+<!--Main Navigation-->
+<header>
+  <div>
+    <nav class="navbar navbar-expand-sm">
+      <a class="navbar-brand" href="1.1Checkin.html"><img src="img/logoHT2.jpg" alt=""></a>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">Nurse1
+            </a>
+              <div class="dropdown-menu header-drop" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">My Profile</a>
+                <a class="dropdown-item" href="#">Log Out</a>
+              </div>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">For Nurses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Help</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+  </div>
+</header>
+<!--/.Main Navigation-->
+
+<body id="backtojack">
+
+  <!--Taking/Reviewing/Special Nav - Main Content-->
+    <div class="container-fluid main-content">
+      <div>
+        <ul class="nav md-pills pills-secondary">
+          <li class="nav-item">
+              <a class="nav-link active" data-toggle="tab" href="#panel1" role="tab">Taking Students</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#panel2" role="tab">Reviewing Reports</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#panel3" role="tab">Special Stuff</a>
+          </li>
+        </ul>
+      </div>
+  <!--/.Taking/Reviewing/Special Nav-->
+
+  <!-- Taking/Reviewing/Special Panels -->
+      <div class="tab-content">
+
+          <!--Taking Students Panels Tab-->
+          <div class="tab-pane fade in show active" id="panel1" role="tabpanel">
+
+            <!-- Taking Students Panels (large version)-->
+              <div class="row" id="">
+
+                  <!-- Collapsed Student List Card -->
+                  <div class="col-sm-1 col-md-1 collapsed-student">
+                      <div class="card card-body student-list-collapsed text-center">
+                        <div>
+                          <!-- <i class="fa fa-caret-square-o-right" aria-hidden="true"></i> -->
+                          <i class="fa fa-toggle-right" aria-hidden="true"></i>
+                          <h5 class="vertical-student-list-text">
+                            Student List
+                          </h5>
+                        </div>
+                      </div>
+                  </div>
+                  <!--/.Collapsed Student List Card -->
+
+                  <!-- Student Info Card -->
+
+                  <div class="col-sm-3 col-md-3 student-info">
+                    <ul class="nav md-pills nav-justified pills-secondary">
+                      <li class="nav-item">
+                          <a class="nav-link active" data-toggle="tab" href="#panel4" role="tab">Student Info</a>
+                      </li>
+                      <!-- <li class="nav-item">
+                           <a class="nav-link" data-toggle="tab" href="#panel11" role="tab">Link</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" data-toggle="tab" href="#panel12" role="tab">Link</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" data-toggle="tab" href="#panel13" role="tab">Help</a>
+                       </li> -->
+                    </ul>
+
+                    <!-- Tab panels -->
+                    <div class="tab-content student-id-tab">
+
+                    <!--Panel 1-->
+                    <div class="tab-pane fade in show active" id="panel11" role="tabpanel">
+                        <br>
+
+                        <!-- Student ID Card -->
+                        <div class="student-id" id="student-id-post-checkincopy">
+
+                          <!--Card-->
+                          <div class="card card-body pre-scrollable">
+                              <div class="img-fluid avatar mt-1 text-center">
+                                  <img src="img/child.jpg" class="rounded-circle z-depth-1-half img-fluid avatar" alt="First sample avatar image">
+                              </div>
+                              <h5 class="font-bold mt-3 text-center">
+                                  <strong>Jackie Sheldon</strong>
+                              </h5>
+                              <div>
+                                <ul class="list-unstyled">
+                                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                                      Student ID
+                                      <span>11591</span>
+                                  </li>
+                                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                                      Grade
+                                      <span>1st</span>
+                                  </li>
+                                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                                      Homeroom
+                                      <span>51</span>
+                                  </li>
+                                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                                      Age
+                                      <span>6</span>
+                                  </li>
+                                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                                      Gender
+                                      <span>Female</span>
+                                  </li>
+                                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                                      Alerts
+                                      <span><i class="fa fa-exclamation-circle red-text" aria-hidden="true"></i></span>
+                                  </li>
+                                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                                      Emergency Contact
+                                      <span>Father</span>
+                                  </li>
+                                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                                      Cell Phone
+                                      <span>555.867.5309</span>
+                                  </li>
+                                </ul>
+                              </div>
+                          </div>
+                          <!--/.Card-->
+                        </div>
+                        <!-- Student ID Card -->
+
+                    </div>
+                    <!--/.Panel 1-->
+                    </div>
+
+                  </div>
+
+                  <!--/.Student Info -->
+
+                  <!--Daily Visit-->
+                  <div class="col-md-5 daily-visit">
+                    <ul class="nav md-pills nav-justified pills-secondary">
+                      <li class="nav-item">
+                          <a class="nav-link active" data-toggle="tab" href="#panel4" role="tab">Daily Visit</a>
+                      </li>
+                      <!-- <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#panel11" role="tab">Link</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#panel12" role="tab">Link</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#panel13" role="tab">Help</a>
+                      </li> -->
+                    </ul>
+
+                  <!--Daily Visit Panels Nav-->
+                  <div id="daily-visit-panel-nav">
+                    <ul class="nav md-pills pills-secondary">
+                      <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#panel4" role="tab">IL-NS</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link active" data-toggle="tab" href="#panel11" role="tab">CDM</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#panel12" role="tab">CO</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#panel13" role="tab">MT</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#panel4" role="tab">IL-SE</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#panel11" role="tab">IN-NS</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#panel12" role="tab">OV</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#panel13" role="tab">SP</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#panel13" role="tab">ED</a>
+                      </li>
+                    </ul>
+                  </div>
+
+
+
+
+                  <!--/.Daily Visit Panels Nav-->
+
+                  <!--Daily Visit Panels-->
+                  <!-- Tab panels -->
+                    <div class="tab-content daily-visit-tab">
+
+                        <!--Panel 1-->
+                        <div class="tab-pane fade in show active" id="panel11" role="tabpanel">
+                          <!--Panel-->
+                            <div class="card card-body daily-visit-forms">
+
+                              <div class="row daily-visit-select daily-visit-select-text">
+                                <div class="col-md-4 pt-3">
+                                  Chronic Condition
+                                </div>
+                                <div class="col-md-8">
+                                  <select class="mdb-select colorful-select dropdown-info">
+                                      <option value="1"></option>
+                                      <option value="2">Arthritis/Rheumatic Disease</option>
+                                      <option value="3">Asthma</option>
+                                      <option value="4">Attention Deficit Disorder / Hyperactivity</option>
+                                      <option value="5">Bleeding Disorders/Cooley's Anemia</option>
+                                      <option value="6">Cardiovascular Condition</option>
+                                      <option value="7">Cerebral Palsy</option>
+                                      <option value="8">Cystic Fibrosis</option>
+                                      <option value="9">Diabetes Type 1</option>
+                                      <option value="10">Diabetes Type 2</option>
+                                      <option value="11">Epilepsy/Other Seizure Disorders</option>
+                                      <option value="12">Life-Threatening Allergies</option>
+                                      <option value="13">Food Related Life-Threatening Allergies</option>
+                                      <option value="14">Other Life-Threatening Allergies</option>
+                                      <option value="15">Sickle Cell Disease</option>
+                                      <option value="16">Spina Bifida</option>
+                                      <option value="17">Tourette's Syndrome</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="row daily-visit-select-text">
+                                <div class="col-md-4 pt-3">
+                                  Medication Category
+                                </div>
+                                <div class="col-md-8">
+                                  <select class="mdb-select colorful-select dropdown-info">
+                                      <option value="1"></option>
+                                      <option value="2">Analgesic</option>
+                                      <option value="3">Antibiotic</option>
+                                      <option value="4">Anticonvulsants: Diastat</option>
+                                      <option value="5">Anticonvulsants: Versed</option>
+                                      <option value="6">Anticonvulsants: Other</option>
+                                      <option value="7">Antihistamine/Decongestant: Epinephrine</option>
+                                      <option value="8">Antihistamine/Decongestant: Other</option>
+                                      <option value="9">Anti-inflammatory</option>
+                                      <option value="10">Asthma</option>
+                                      <option value="11">Diabetes: Oral</option>
+                                      <option value="12">Diabetes: Insulin</option>
+                                      <option value="13">Diabetes: Glucagon</option>
+                                      <option value="14">Diabetes: Glucose Medication</option>
+                                      <option value="15">Gastrointestinal: Enzymes</option>
+                                      <option value="16">Gastrointestinal: Other</option>
+                                      <option value="17">Reversal Agents: Naloxene/Narcan</option>
+                                      <option value="18">Psychotropics: ADD/ADHD</option>
+                                      <option value="19">Psychotropics: Other</option>
+                                      <option value="20">Other</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="row daily-visit-select-text">
+                                <div class="col-md-4 pt-3">
+                                  Medication
+                                </div>
+                                <div class="col-md-8 pt-3">
+                                  Adderal XR 20mg by Oral, PRN
+                                </div>
+                              </div>
+                              <div class="row pt-2 daily-visit-select-text">
+                                <div class="col-md-4 pt-4">
+                                  Procedure
+                                </div>
+                                <div class="col-md-8 pt-3 form-group basic-textarea rounded-corners shadow-textarea">
+                                  <textarea class="form-control z-depth-1" id="exampleFormControlTextarea1" placeholder="Details of procedure"></textarea>
+                                </div>
+                              </div>
+                              <div class="row daily-visit-select-text">
+                                <div class="col-md-12">
+                                  Additional Notes (Optional)
+                                </div>
+                              </div>
+                              <div class="row pt-2">
+                                <div class="col-md-12 form-group rounded-corners shadow-textarea">
+                                  <textarea class="form-control z-depth-1" id="exampleFormControlTextarea2"></textarea>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-10 daily-visit-button">
+                                  <button type="button" class="btn btn-outline-info waves-effect btn-block">Administer Medication</button>
+                                </div>
+                                <div class="col-md-2 pt-2">
+                                  <!-- 08:35:12 -->
+                                </div>
+                              </div>
+                              <div class="row pt-3 daily-visit-button">
+                                <div class="col-md-6">
+                                  <button type="button" class="btn btn-outline-info waves-effect btn-block">Call Parent</button>
+                                </div>
+                                <div class="col-md-6">
+                                  <button type="button" class="btn btn-outline-info waves-effect btn-block">Refer to Provider</button>
+                                </div>
+                              </div>
+                              <div class="row pt-3 daily-visit-button">
+                                <div class="col-md-12">
+                                  <button type="button" class="btn btn-outline-info waves-effect btn-block">Return to Class</button>
+                                </div>
+                              </div>
+
+
+                            </div>
+                          <!--/.Panel-->
+                        </div>
+                        <!--/.Panel 1-->
+
+                    </div>
+                  <!--/.Daily Visit Panels-->
+
+
+
+                  <!--/.Daily Visit-->
+
+              </div>
+
+            </div>
+          <!--/.Taking Students Panels (large version)-->
+
+
+          </div>
+          <!--/.Taking Students Panels Tab-->
+
+          <!--Panel 2 Reviewing Reports-->
+          <!-- <div class="tab-pane fade" id="panel2" role="tabpanel">
+              <p>Reviewing Reports</p>
+          </div> -->
+          <!--/.Panel 2 Reviewing Reports-->
+
+          <!--Panel 3 Special Stuff-->
+          <!-- <div class="tab-pane fade" id="panel3" role="tabpanel">
+              <p>Special Stuff</p>
+          </div> -->
+          <!--/.Panel 3 Special Stuff-->
+
+      </div>
+      <!--/.Taking/Reviewing/Special Panels -->
+
+    </div>
+    <!--/. Main Content-->
+
+
+      <!--Footer-->
+      <footer class="page-footer">
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <!--Panel-->
+                  <div class="card card-body">
+                    <span class="card-body">
+                      <a class="black-text" href="2.3AddCarltoExpected.html"><i class="fa fa-arrow-left" aria-hidden="true"></i> demo </a>
+                      <a class="black-text" href="1.5AdministeredMedication.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    </span>
+                  </div>
+                  <!--/.Panel-->
+              </div>
+            </div>
+        </div>
+      </footer>
+      <!--/.Footer-->
+
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script>
+    // Material Select Initialization
+      $(document).ready(function() {
+         $('.mdb-select').material_select();
+       });
+    </script>
+</body>
+
+</html>
