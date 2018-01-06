@@ -66,12 +66,16 @@ yellowGold rgb(223, 175, 64)
 /*info cards*/
 
 #returnedjacktoclass .student-list {
-  padding-right: 0px;
-  padding-left: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 #returnedjacktoclass .student-list .nav-item .nav-link.active, .tabs-secondary {
   background-color: rgb(223, 175, 64);
+}
+
+#returnedjacktoclass .second-level-navpills {
+    margin-left: -.5rem;
 }
 
 #returnedjacktoclass .student-list .nav-link {
@@ -163,6 +167,8 @@ yellowGold rgb(223, 175, 64)
 
 #returnedjacktoclass footer.page-footer {
   margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #returnedjacktoclass .page-footer .card {

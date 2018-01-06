@@ -66,12 +66,16 @@ yellowGold rgb(223, 175, 64)
 /*info cards*/
 
 #checkin .student-list {
-  padding-right: 0px;
-  padding-left: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 #checkin .student-list .nav-item .nav-link.active, .tabs-secondary {
   background-color: rgb(223, 175, 64);
+}
+
+#checkin .second-level-navpills {
+    margin-left: -.5rem;
 }
 
 #checkin .student-list .nav-link {
@@ -106,6 +110,8 @@ yellowGold rgb(223, 175, 64)
 
 #checkin footer.page-footer {
   margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #checkin .page-footer .card {

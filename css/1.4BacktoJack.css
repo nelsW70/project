@@ -72,9 +72,9 @@ yellowGold rgb(223, 175, 64)
 
 #backtojack .collapsed-student {
   margin-top: .6rem;
-  padding-left: 0px;
-  padding-right: 0px;
-  max-width: 3rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 5rem;
 }
 
 #backtojack .student-list-collapsed {
@@ -109,6 +109,10 @@ yellowGold rgb(223, 175, 64)
 #backtojack .student-info .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
   background-color: rgb(223, 175, 64);
   max-width: 10rem;
+}
+
+#backtojack .second-level-navpills {
+    margin-left: -.5rem;
 }
 
 #backtojack #student-id-post-checkincopy .card img {
@@ -208,6 +212,8 @@ yellowGold rgb(223, 175, 64)
 
 #backtojack footer.page-footer {
   margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #backtojack .page-footer .card {

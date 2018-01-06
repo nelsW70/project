@@ -72,9 +72,9 @@ yellowGold rgb(223, 175, 64)
 
 #administeredmedication .collapsed-student {
   margin-top: .6rem;
-  padding-left: 0px;
-  padding-right: 0px;
-  max-width: 3rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 5rem;
 }
 
 #administeredmedication .student-list-collapsed {
@@ -109,6 +109,10 @@ yellowGold rgb(223, 175, 64)
 #administeredmedication .student-info .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
   background-color: rgb(223, 175, 64);
   max-width: 10rem;
+}
+
+#administeredmedication .second-level-navpills {
+    margin-left: -.5rem;
 }
 
 #administeredmedication #student-id-post-checkincopy .card img {
@@ -213,6 +217,8 @@ yellowGold rgb(223, 175, 64)
 
 #administeredmedication footer.page-footer {
   margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #administeredmedication .page-footer .card {

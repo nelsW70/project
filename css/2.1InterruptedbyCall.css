@@ -66,12 +66,16 @@ yellowGold rgb(223, 175, 64)
 /*info cards*/
 
 #interruptedbycall .student-list {
-  padding-right: 0px;
-  padding-left: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 #interruptedbycall .student-list .nav-item .nav-link.active, .tabs-secondary {
   background-color: rgb(223, 175, 64);
+}
+
+#interruptedbycall .second-level-navpills {
+    margin-left: -.5rem;
 }
 
 #interruptedbycall .student-list .nav-link {
@@ -157,6 +161,8 @@ yellowGold rgb(223, 175, 64)
 
 #interruptedbycall footer.page-footer {
   margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #interruptedbycall .page-footer .card {
