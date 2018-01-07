@@ -93,6 +93,7 @@ yellowGold rgb(223, 175, 64)
 }
 
 /* collapse icon in nav */
+
 #returnedjacktoclass #icon-collapse {
   margin-right: -.75rem;
 }
@@ -112,12 +113,22 @@ yellowGold rgb(223, 175, 64)
   min-width: 5rem;
 }
 
+/* expected students medical condition selector */
+
+#returnedjacktoclass .cat-select {
+  font-family: 'Roboto', sans-serif;
+  font-size: .9rem;
+  font-weight: 300;
+  background-color: rgb(255,255,255);
+  border: none;
+  margin-left: -0.5rem;
+}
 
 /* general tab */
 
 #returnedjacktoclass .md-form {
-  margin: 0 5%;
-  width: 100%;
+  margin: 0 .5%;
+  width: 120%;
 }
 
 #returnedjacktoclass .select-wrapper {
@@ -125,7 +136,7 @@ yellowGold rgb(223, 175, 64)
   width: 25%;
 }
 
-/* general tab search*/
+/* general tab search */
 
 #returnedjacktoclass .active-gold input[type=text]:focus:not([readonly]) {
     border-bottom: 1px solid rgb(223, 175, 64);
@@ -133,6 +144,18 @@ yellowGold rgb(223, 175, 64)
 }
 
 /* general tab select */
+
+#returnedjacktoclass .searching-select input, textarea, select, button {
+  text-align: center;
+}
+
+#returnedjacktoclass .searching-select input.select-dropdown {
+width: 60%;
+}
+
+#returnedjacktoclass .select-wrapper span.caret {
+right: 100%;
+}
 
 #returnedjacktoclass .searching-select .dropdown-content li>a, .dropdown-content li>span {
   color: black;
@@ -178,20 +201,4 @@ yellowGold rgb(223, 175, 64)
 
 #returnedjacktoclass .page-footer .card {
   height: 12vh;
-}
-
-/* hides/shows #student-list-tablet and #checkin-student-list-large divs
-   (note: there are of course more elegant ways to do this but this was the
-   fastest way to give you an idea of how it should look) */
-
-@media only screen and (min-width: 1200px) {
-    #returnedjacktoclass #checkin-copy-tablet {
-      display: none;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    #returnedjacktoclass #checkin-copy-large {
-      display: none;
-    }
 }

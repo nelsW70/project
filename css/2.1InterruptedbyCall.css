@@ -120,8 +120,8 @@ yellowGold rgb(223, 175, 64)
 }
 
 #interruptedbycall .md-form {
-  margin: 0 5%;
-  width: 100%;
+  margin: 0 .5%;
+  width: 120%;
 }
 
 #interruptedbycall .select-wrapper {
@@ -129,12 +129,25 @@ yellowGold rgb(223, 175, 64)
     width: 25%;
 }
 
+#interruptedbycall .select-wrapper span.caret {
+    right: 100%;
+}
+
+#interruptedbycall .select-wrapper input.select-dropdown {
+width: 60%;
+}
+
+
 #interruptedbycall .interrupted-select .dropdown-content li>a, .dropdown-content li>span {
   color: black;
 }
 
 #interruptedbycall .dropdown-primary .dropdown-content li a, .dropdown-primary .dropdown-content li span:hover, .dropdown-primary .dropdown-content li.active {
   background-color: rgb(223, 175, 64);
+}
+
+#interruptedbycall .interrupted-select input, textarea, select, button {
+  text-align: center;
 }
 
 /* general-student table */
@@ -174,20 +187,4 @@ yellowGold rgb(223, 175, 64)
 
 #interruptedbycall .page-footer .card {
   height: 12vh;
-}
-
-/* hides/shows #student-list-tablet and #checkin-student-list-large divs
-   (note: there are of course more elegant ways to do this but this was the
-   fastest way to give you an idea of how it should look) */
-
-@media only screen and (min-width: 1200px) {
-    #interruptedbycall #checkin-copy-tablet {
-      display: none;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    #interruptedbycall #checkin-copy-large {
-      display: none;
-    }
 }

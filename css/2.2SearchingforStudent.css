@@ -125,14 +125,27 @@ yellowGold rgb(223, 175, 64)
 /* general tab */
 
 #searchingforstudent .md-form {
-  margin: 0 5%;
-  width: 100%;
+  margin: 0 .5%;
+  width: 120%;
+}
+
+#searchingforstudent .select-wrapper span.caret {
+right: 100%;
+}
+
+#searchingforstudent .searching-select input, textarea, select, button {
+  text-align: center;
 }
 
 #searchingforstudent .select-wrapper {
   margin: 0 5%;
   width: 25%;
 }
+
+#searchingforstudent .select-wrapper input.select-dropdown {
+width: 60%;
+}
+
 
 #searchingforstudent .active-gold input[type=text]:focus:not([readonly]) {
     border-bottom: 1px solid rgb(223, 175, 64);
@@ -176,20 +189,4 @@ yellowGold rgb(223, 175, 64)
 
 #searchingforstudent .page-footer .card {
   height: 12vh;
-}
-
-/* hides/shows #student-list-tablet and #checkin-student-list-large divs
-   (note: there are of course more elegant ways to do this but this was the
-   fastest way to give you an idea of how it should look) */
-
-@media only screen and (min-width: 1200px) {
-    #searchingforstudent #checkin-copy-tablet {
-      display: none;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    #searchingforstudent #checkin-copy-large {
-      display: none;
-    }
 }

@@ -176,7 +176,7 @@ yellowGold rgb(223, 175, 64)
 }
 
 #administeredmedication .daily-visit-select .dropdown-info .dropdown-content li a, .dropdown-info .dropdown-content li span:hover, .dropdown-info .dropdown-content li.active {
-  background-color: rgb(70, 97, 29);
+  background-color: rgb(223, 175, 64);
 }
 
 #administeredmedication .daily-visit-select .dropdown-content li>a, .dropdown-content li>span {
@@ -224,21 +224,3 @@ yellowGold rgb(223, 175, 64)
 #administeredmedication .page-footer .card {
   height: 12vh;
 }
-
-
-
-/* hides/shows #student-list-tablet and #checkin-student-list-large divs
-   (note: there are of course more elegant ways to do this but this was the
-   fastest way to give you an idea of how it should look) */
-
-/*@media only screen and (min-width: 1200px) {
-    #checkin-copy-tablet {
-      display: none;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    #checkin-copy-large {
-      display: none;
-    }
-}*/

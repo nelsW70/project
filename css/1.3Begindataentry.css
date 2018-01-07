@@ -218,21 +218,3 @@ yellowGold rgb(223, 175, 64)
 #begindataentry .page-footer .card {
   height: 12vh;
 }
-
-
-
-/* hides/shows #student-list-tablet and #checkin-student-list-large divs
-   (note: there are of course more elegant ways to do this but this was the
-   fastest way to give you an idea of how it should look) */
-
-/*@media only screen and (min-width: 1200px) {
-    #checkin-copy-tablet {
-      display: none;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    #checkin-copy-large {
-      display: none;
-    }
-}*/
