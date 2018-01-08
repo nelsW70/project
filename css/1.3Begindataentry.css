@@ -99,6 +99,10 @@ yellowGold rgb(223, 175, 64)
   padding-top: 1rem;
 }
 
+#begindataentry .vertical-student-list-text {
+  color: rgb(223, 175, 64);
+}
+
 /* Student Id Card 1.2 */
 
 #begindataentry  .tab-content .student-id-tab {
@@ -155,7 +159,7 @@ yellowGold rgb(223, 175, 64)
 }
 
 #begindataentry #daily-visit-panel-nav {
-  margin-top: -.5rem;
+  margin-top: -.75rem;
 }
 
 /* Daily Visit Input Forms */
@@ -186,7 +190,7 @@ yellowGold rgb(223, 175, 64)
 }
 
 #begindataentry .card-body.daily-visit-forms {
-  height: 55vh;
+  height: 55.25vh;
 }
 
 #begindataentry #exampleFormControlTextarea1, #exampleFormControlTextarea2 {
@@ -217,4 +221,71 @@ yellowGold rgb(223, 175, 64)
 
 #begindataentry .page-footer .card {
   height: 12vh;
+}
+
+/* media queries for tablets */
+
+@media only screen
+  and (min-device-width: 1366px)
+  and (max-device-width: 1366px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #begindataentry .student-id .card {
+      min-height: 60.5vh;
+    }
+    #begindataentry .card-body.daily-visit-forms {
+    height: 56vh;
+    }
+}
+
+@media only screen
+  and (min-device-width: 1024px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #begindataentry .student-id .card {
+        min-height: 61.5vh;
+        padding-top: .5rem;
+    }
+    #begindataentry .card-body.daily-visit-forms {
+        height: 58.25vh;
+    }
+}
+
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1024px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 1) {
+  #begindataentry .student-list-collapsed {
+    min-height: 67vh;
+  }
+  #begindataentry .student-id .card {
+    min-height: 60.75vh;
+  }
+  #begindataentry #exampleFormControlTextarea2 {
+    min-height: 2rem;
+}
+  #begindataentry .btn {
+    line-height: 0;
+  }
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 768px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #begindataentry .card-body.daily-visit-forms {
+      height: 50.25vh;
+  }
+    #begindataentry #exampleFormControlTextarea1 {
+      max-height: 1rem;
+  }
+    #begindataentry #exampleFormControlTextarea2 {
+    min-height: 2rem;
+}
+    #begindataentry .btn {
+      padding: .85rem 1.13rem;
+    }
 }

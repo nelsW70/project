@@ -99,6 +99,10 @@ yellowGold rgb(223, 175, 64)
   padding-top: 1rem;
 }
 
+#backtojack .vertical-student-list-text {
+  color: rgb(223, 175, 64);
+}
+
 /* Student Id Card 1.2 */
 
 #backtojack  .tab-content .student-id-tab {
@@ -155,7 +159,7 @@ yellowGold rgb(223, 175, 64)
 }
 
 #backtojack #daily-visit-panel-nav {
-  margin-top: -.5rem;
+  margin-top: -.75rem;
 }
 
 /* Daily Visit Input Forms */
@@ -186,7 +190,7 @@ yellowGold rgb(223, 175, 64)
 }
 
 #backtojack .card-body.daily-visit-forms {
-  height: 55vh;
+  height: 55.25vh;
 }
 
 #backtojack #exampleFormControlTextarea1, #exampleFormControlTextarea2 {
@@ -218,4 +222,71 @@ yellowGold rgb(223, 175, 64)
 
 #backtojack .page-footer .card {
   height: 12vh;
+}
+
+/* media queries for tablets */
+
+@media only screen
+  and (min-device-width: 1366px)
+  and (max-device-width: 1366px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #backtojack  .student-id .card {
+      min-height: 60.5vh;
+    }
+    #backtojack  .card-body.daily-visit-forms {
+    height: 56vh;
+    }
+}
+
+@media only screen
+  and (min-device-width: 1024px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #backtojack  .student-id .card {
+        min-height: 61.5vh;
+        padding-top: .5rem;
+    }
+    #backtojack  .card-body.daily-visit-forms {
+        height: 58.25vh;
+    }
+}
+
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1024px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 1) {
+  #backtojack  .student-list-collapsed {
+    min-height: 67vh;
+  }
+  #backtojack  .student-id .card {
+    min-height: 60.75vh;
+  }
+  #backtojack  #exampleFormControlTextarea2 {
+    min-height: 2rem;
+}
+  #backtojack  .btn {
+    line-height: 0;
+  }
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 768px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #backtojack  .card-body.daily-visit-forms {
+      height: 50.25vh;
+  }
+    #backtojack  #exampleFormControlTextarea1 {
+      max-height: 1rem;
+  }
+    #backtojack  #exampleFormControlTextarea2 {
+    min-height: 2rem;
+}
+    #backtojack  .btn {
+      padding: .85rem 1.13rem;
+    }
 }

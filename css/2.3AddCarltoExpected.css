@@ -113,6 +113,17 @@ yellowGold rgb(223, 175, 64)
   min-width: 5rem;
 }
 
+/* expected students medical condition selector */
+
+#addtoexpected .cat-select {
+  font-family: 'Roboto', sans-serif;
+  font-size: .9rem;
+  font-weight: 300;
+  background-color: rgb(255,255,255);
+  border: none;
+  margin-left: -0.5rem;
+}
+
 /* general tab */
 
 #addtoexpected .md-form {
@@ -141,7 +152,7 @@ yellowGold rgb(223, 175, 64)
 }
 
 #addtoexpected .searching-select input.select-dropdown {
-width: 60%;
+width: 100%;
 }
 
 #addtoexpected .select-wrapper span.caret {
