@@ -100,6 +100,11 @@ yellowGold rgb(223, 175, 64)
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
+#checkin-copy .yellowGold-text {
+  color: rgb(223, 175, 64);
+}
+
+
 /* expected students table headers */
 
 #checkin-copy table .th-lg {

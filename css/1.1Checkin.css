@@ -106,6 +106,10 @@ yellowGold rgb(223, 175, 64)
   min-width: 5rem;
 }
 
+#checkin .yellowGold-text {
+  color: rgb(223, 175, 64);
+}
+
 /* footer */
 
 #checkin footer.page-footer {
