@@ -98,7 +98,7 @@
                             <a class="nav-link active" data-toggle="tab" href="#panel4" role="tab">Expecting</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#panel5" role="tab">General</a>
+                            <a class="nav-link" id="general-panel-btn" data-toggle="tab" href="#panel5" role="tab">General</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" data-toggle="tab" href="#panel6" role="tab">Seen Today</a>
@@ -502,6 +502,8 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <script>
+      // triggers General Panel to load first for demo purposes
+      $('#general-panel-btn').tab('show');
     // Material Select Initialization
       $(document).ready(function() {
          $('.mdb-select').material_select();
