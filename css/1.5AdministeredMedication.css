@@ -140,6 +140,10 @@ a:link, a:visited, a:hover, a:active  {
   font-weight: 300;
 }
 
+#administeredmedication .yellowGold-text {
+  color: rgb(223, 175, 64);
+}
+
 /* Daily Visit */
 
 #administeredmedication #gavemed {

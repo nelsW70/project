@@ -140,6 +140,10 @@ a:link, a:visited, a:hover, a:active  {
   font-weight: 300;
 }
 
+#begindataentry .yellowGold-text {
+  color: rgb(223, 175, 64);
+}
+
 /* Daily Visit */
 
 #begindataentry .tab-content .daily-visit-tab {

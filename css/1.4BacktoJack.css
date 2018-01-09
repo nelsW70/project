@@ -133,6 +133,10 @@ yellowGold rgb(223, 175, 64)
   font-weight: 300;
 }
 
+#backtojack .yellowGold-text {
+  color: rgb(223, 175, 64);
+}
+
 /* Daily Visit */
 
 #backtojack .tab-content .daily-visit-tab {
