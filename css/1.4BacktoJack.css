@@ -210,6 +210,11 @@ yellowGold rgb(223, 175, 64)
     background-color: transparent;
 }
 
+#backtojack  #adminMed-btn {
+  background-color: rgb(223, 175, 64);
+  color: white !important;
+}
+
 
 
 /* footer */

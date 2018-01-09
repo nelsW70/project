@@ -101,7 +101,7 @@
                             <a class="nav-link" data-toggle="tab" href="#panel5" role="tab">General</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#panel6" role="tab">Seen Today</a>
+                            <a class="nav-link" id="seen-panel-btn" data-toggle="tab" href="#panel6" role="tab">Seen Today</a>
                         </li>
                         <ul class="navbar-nav ml-auto" id="icon-collapse">
                          <li class="nav-item">
@@ -588,6 +588,8 @@
       $(document).ready(function() {
          $('.mdb-select').material_select();
        });
+    // triggers Seen Today Panel to load first for demo purposes
+       $('#seen-panel-btn').tab('show');
     </script>
 </body>
 
