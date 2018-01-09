@@ -44,7 +44,7 @@ yellowGold rgb(223, 175, 64)
 /* main-content */
 
 .main-content {
-  padding-top: .75%;
+  padding-top: 2.75%;
 }
 
 
@@ -213,6 +213,11 @@ yellowGold rgb(223, 175, 64)
 #backtojack  #adminMed-btn {
   background-color: rgb(223, 175, 64);
   color: white !important;
+}
+
+/* placeholder text for demo */
+#backtojack ::placeholder {
+color: black;
 }
 
 

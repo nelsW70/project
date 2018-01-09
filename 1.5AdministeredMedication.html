@@ -338,7 +338,7 @@
                                 <div class="col-md-10 daily-visit-button">
                                   <button type="button" class="btn btn-outline-info waves-effect btn-block" id="gavemed">Medication Administered</button>
                                 </div>
-                                <div class="col-md-2 pt-2">
+                                <div class="col-md-2 pt-2" id="time">
                                   08:35:12
                                 </div>
                               </div>
@@ -426,6 +426,16 @@
       $(document).ready(function() {
          $('.mdb-select').material_select();
        });
+    // changes return to class button color for demo
+      $(document).ready(function(){
+       $('#returnPrimary').on({
+        click: function(){
+       $(this).css("background-color", "rgb(189, 189, 189)");
+       $(this).css("color", "black !important");
+       $(this).css("border", "none");
+     }
+   });
+ });
     </script>
 </body>
 

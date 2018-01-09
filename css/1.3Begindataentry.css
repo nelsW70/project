@@ -44,7 +44,7 @@ yellowGold rgb(223, 175, 64)
 /* main-content */
 
 .main-content {
-  padding-top: .75%;
+  padding-top: 2.75%;
 }
 
 
@@ -222,6 +222,10 @@ a:link, a:visited, a:hover, a:active  {
   color: white !important;
 }
 
+/* placeholder text for demo */
+#begindataentry ::placeholder {
+color: black;
+}
 
 /* footer */
 
