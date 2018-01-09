@@ -217,6 +217,11 @@ a:link, a:visited, a:hover, a:active  {
     background-color: transparent;
 }
 
+#begindataentry #adminMed-btn {
+  background-color: rgb(223, 175, 64);
+  color: white !important;
+}
+
 
 /* footer */
 

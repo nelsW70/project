@@ -107,6 +107,10 @@ yellowGold rgb(223, 175, 64)
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
+#addtoexpected .yellowGold-text {
+  color: rgb(223, 175, 64);
+}
+
 /* expected students table headers */
 
 #addtoexpected table .th-lg {

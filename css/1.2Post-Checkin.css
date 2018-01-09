@@ -210,6 +210,10 @@ yellowGold rgb(223, 175, 64)
     background-color: transparent;
 }
 
+#post-checkin #adminMed-btn {
+  background-color: rgb(223, 175, 64);
+  color: white !important;
+}
 
 /* footer */
 
