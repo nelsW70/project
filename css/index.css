@@ -1,0 +1,143 @@
+/* color palette */
+
+/*
+whiteLight rgb(255, 255, 255)
+blackOnyx rgb(33, 33, 33)
+greyDark rgb(117, 117, 117)
+greyLight rgb(189, 189, 189)
+blueDeep rgb(65, 90, 122)
+greenDark rgb(70, 97, 29)
+greenMiddle rgb(144, 174, 89)
+greenLight rgb(187, 213, 136)
+yellowGold rgb(223, 175, 64)
+*/
+
+/* navbar additional styling */
+
+.navbar {
+    padding-right: 2rem!important;
+}
+
+.navbar-brand img {
+  height: 2.5rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: .5rem;
+}
+
+.nav-link {
+  color: rgb(117, 117, 117);
+}
+
+.nav-link:hover {
+  color: rgb(33, 33, 33);
+}
+
+.nav-link:active {
+  color: rgb(33, 33, 33);
+}
+
+/* navbar dropdown color */
+
+.dropdown .dropdown-menu.header-drop .dropdown-item:hover, .dropdown .dropdown-menu.dropdown-primary .dropdown-item:active {
+  background-color:  rgb(70, 97, 29); }
+
+/* secondary nav tabs */
+
+.classic-tabs.tabs-cyan li a.active {
+    border-color: rgb(70, 97, 29)
+}
+
+.classic-tabs li a.active {
+    border-bottom: 3px solid;
+    color: rgb(33, 33, 33);
+}
+
+.classic-tabs .nav-link {
+    color: rgba(33, 33, 33, .6);
+    text-transform: none;
+}
+
+.classic-tabs li a {
+  padding: 5px 12px;
+  font-size: 1rem;
+}
+
+.tabs-cyan {
+    background-color: transparent;
+}
+
+
+/*.pills-secondary {
+  font-size: .9rem;
+  font-weight: 400;
+}*/
+
+.main-content {
+  padding-top: 2.75%;
+}
+
+.main-content .tab-content {
+  padding: 0rem 1rem;
+}
+
+/*info cards*/
+
+.student-list {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.student-list .nav-item .nav-link.active, .tabs-secondary {
+  background-color: rgb(223, 175, 64);
+}
+
+.second-level-navpills {
+    margin-left: -.5rem;
+}
+
+.student-list .nav-link {
+  font-size: .9rem;
+  font-weight: 400;
+}
+
+.expecting-general-seen li {
+  padding-left: .5rem;
+}
+
+.student-list .card {
+  height: 60vh;
+}
+
+/* expected students table */
+
+.table-wrapper-2 {
+  display: block;
+  max-height: 60vh;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+/* expected students table headers */
+
+table .th-lg {
+  min-width: 5rem;
+}
+
+#index .yellowGold-text {
+  color: rgb(223, 175, 64);
+}
+
+/* footer */
+
+footer.page-footer {
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.page-footer .card {
+  height: 12vh;
+}
