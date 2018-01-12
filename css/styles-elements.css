@@ -1,0 +1,67 @@
+/* demo styling - not for app */
+
+/* color swatch display */
+
+.swatch {
+  border: .5px solid lightgrey;
+}
+
+.underline {
+  border-bottom: 1px grey solid;
+}
+
+/* demo styling - not for app */
+
+
+
+/* application styling */
+
+/* Primary Button */
+
+.eTools-btn-primary {
+  color: white !important;
+  background-color: rgb(223, 175, 64);
+}
+
+.eTools-btn-primary:hover {
+  background-color: rgba(223, 175, 64, .9);
+}
+
+.eTools-btn-primary:focus {
+  background-color: rgb(189, 189, 189);
+}
+
+/* Primary Button Disabled */
+
+.eTools-btn-primary-disabled {
+  color: white;
+  background-color: rgb(189, 189, 189);
+}
+
+/* Secondary Button */
+
+.eTools-btn-secondary {
+  border: 1px solid rgb(223, 175, 64);
+  color: black!important;
+  background-color: transparent;
+}
+
+/* Text Area */
+
+.basic-textarea textarea {
+    height: auto;
+}
+
+.rounded-corners textarea {
+    border-radius: 0.25rem;
+}
+
+/* Select (color) */
+
+.eTools-select .dropdown-info .dropdown-content li a, .dropdown-info .dropdown-content li span:hover, .dropdown-info .dropdown-content li.active {
+  background-color: rgb(223, 175, 64);
+}
+
+.eTools-select .dropdown-content li>a, .dropdown-content li>span {
+  color: black;
+}

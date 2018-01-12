@@ -173,7 +173,6 @@ width: 100%;
   margin-top: 3.5rem;
   margin-top: 3.5rem;
   padding-top: .5rem;
-  filter: grayscale(100%);
 }
 
 #interruptedbycall .student-id .list-group-item {
@@ -181,8 +180,8 @@ width: 100%;
   font-weight: 300;
 }
 
-#interruptedbycall #student-id-checkincopy .card-body, #interruptedbycall #student-id-checkincopy .list-group-item {
-  background-color: rgb(189, 189, 189);
+#interruptedbycall #student-id-checkincopy .card-body {
+  opacity: .5;
 }
 
 #interruptedbycall #student-id-checkincopy .card-body .list-group-item {

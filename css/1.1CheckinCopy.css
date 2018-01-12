@@ -113,8 +113,20 @@ yellowGold rgb(223, 175, 64)
 
 /* Student Id Card 1.1 */
 
+/* animation */
+
+#animateID {
+  width: 100%;
+  transition: width .8s;
+  transition-timing-function: ease;
+}
+
+#animateID.on {
+  width: 150%;
+}
+
 #checkin-copy #student-id-checkincopy .card img {
-  max-width: 35%;
+  max-width: 8rem;
 }
 
 #checkin-copy .student-id .card {

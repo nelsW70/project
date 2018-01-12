@@ -186,7 +186,6 @@ width: 100%;
   margin-top: 3.5rem;
   margin-top: 3.5rem;
   padding-top: .5rem;
-  filter: grayscale(100%);
 }
 
 #addtoexpected .student-id .list-group-item {
@@ -194,8 +193,8 @@ width: 100%;
   font-weight: 300;
 }
 
-#addtoexpected #student-id-checkincopy .card-body, #addtoexpected #student-id-checkincopy .list-group-item {
-  background-color: rgb(189, 189, 189);
+#addtoexpected #student-id-checkincopy .card-body {
+  opacity: 0.5;
 }
 
 #addtoexpected .card-body .list-group-item {

@@ -326,7 +326,7 @@
                 <div class="col-sm-5 col-md-5 col-lg-4 col-xl-3 student-id" id="student-id-checkincopy">
 
                   <!--Card-->
-                  <div class="card card-body pre-scrollable">
+                  <div class="card card-body pre-scrollable" id="animateID">
                       <div class="img-fluid avatar text-center">
                           <img src="img/child.jpg" class="rounded-circle z-depth-1-half img-fluid avatar" alt="First sample avatar image">
                       </div>
@@ -427,6 +427,14 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Card Animation -->
+    <script>
+    $(function(){
+      $('#animateID').click(function(){
+        $(this).toggleClass('on');
+      });
+      });
+    </script>
 </body>
 
 </html>
