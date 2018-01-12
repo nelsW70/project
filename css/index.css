@@ -47,7 +47,7 @@ yellowGold rgb(223, 175, 64)
 /* secondary nav tabs */
 
 .classic-tabs.tabs-cyan li a.active {
-    border-color: rgb(70, 97, 29)
+    border-color: rgb(187, 213, 136);
 }
 
 .classic-tabs li a.active {
@@ -63,17 +63,12 @@ yellowGold rgb(223, 175, 64)
 .classic-tabs li a {
   padding: 5px 12px;
   font-size: 1rem;
+  font-weight: 400;
 }
 
 .tabs-cyan {
     background-color: transparent;
 }
-
-
-/*.pills-secondary {
-  font-size: .9rem;
-  font-weight: 400;
-}*/
 
 .main-content {
   padding-top: 2.75%;
@@ -128,6 +123,166 @@ table .th-lg {
 
 #index .yellowGold-text {
   color: rgb(223, 175, 64);
+}
+
+/* student-list collapsed */
+
+#begindataentry .collapsed-student {
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 5rem;
+}
+
+#begindataentry .student-list-collapsed {
+  min-height: 65vh;
+}
+
+#begindataentry .card-body.student-list-collapsed {
+  padding: 0rem;
+}
+
+#begindataentry .student-list-collapsed h5 {
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#begindataentry .fa-toggle-right {
+  font-size: 2.5rem;
+  padding-top: 1rem;
+}
+
+#begindataentry .vertical-student-list-text {
+  color: rgb(223, 175, 64);
+}
+
+/* demo toggle button click */
+
+a:link, a:visited, a:hover, a:active  {
+    text-decoration: none !important;
+    color: black;
+}
+
+/* Student Id Card 1.2 */
+
+
+#begindataentry  .tab-content .student-id-tab {
+    padding: 0rem 0rem;
+    margin-top: -1.5rem;
+}
+
+#begindataentry .student-info .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
+  background-color: rgb(223, 175, 64);
+  max-width: 10rem;
+}
+
+#begindataentry .second-level-navpills {
+    margin-left: -.5rem;
+}
+
+#begindataentry #student-id-post-checkincopy .card img {
+  max-width: 35%;
+}
+
+#begindataentry .student-id .card {
+  min-height: 65vh;
+  padding-top: .5rem;
+}
+
+#begindataentry .student-id .list-group-item {
+  font-size: .95rem;
+  font-weight: 300;
+}
+
+#begindataentry .yellowGold-text {
+  color: rgb(223, 175, 64);
+}
+
+/* Daily Visit */
+
+#begindataentry .tab-content .daily-visit-tab {
+  padding: 0rem 0rem;
+}
+
+#begindataentry .daily-visit .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
+  background-color: rgb(223, 175, 64);
+  max-width: 10rem;
+}
+
+#begindataentry #daily-visit-panel-nav .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
+  background-color: rgb(144, 174, 89);
+  max-width: 10rem;
+}
+
+#begindataentry .daily-visit .nav-link {
+  font-size: .9rem;
+  font-weight: 400;
+}
+
+#begindataentry #daily-visit-panel-nav .md-pills li {
+  padding: .6rem .1rem;
+}
+
+/* Daily Visit Input Forms */
+
+#begindataentry .daily-visit-select-text {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+#begindataentry .select-wrapper input.select-dropdown {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+#begindataentry .daily-visit-select .dropdown-info .dropdown-content li a, .dropdown-info .dropdown-content li span:hover, .dropdown-info .dropdown-content li.active {
+  background-color: rgb(223, 175, 64);
+}
+
+#begindataentry .daily-visit-select .dropdown-content li>a, .dropdown-content li>span {
+  color: black;
+}
+
+#begindataentry .shadow-textarea textarea.form-control::placeholder {
+    font-weight: 300;
+}
+#begindataentry .shadow-textarea textarea.form-control {
+    padding-left: 0.8rem;
+}
+
+#begindataentry .daily-visit-card .card {
+  height: 65vh;
+  padding-top: .5rem;
+}
+
+#begindataentry #exampleFormControlTextarea1, #exampleFormControlTextarea2 {
+  max-height: 5rem;
+}
+#begindataentry #exampleFormControlTextarea1 {
+  min-height: 1.5rem
+}
+
+#begindataentry #exampleFormControlTextarea2 {
+  min-height: 4rem;
+}
+
+#begindataentry .daily-visit-button .btn-outline-info {
+    border: 1px solid rgb(223, 175, 64);
+    color: black!important;
+    background-color: transparent;
+}
+
+#begindataentry #adminMed-btn {
+  background-color: rgb(223, 175, 64);
+  color: white !important;
+}
+
+/* placeholder text for demo */
+#begindataentry ::placeholder {
+color: black;
 }
 
 /* footer */

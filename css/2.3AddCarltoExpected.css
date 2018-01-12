@@ -44,16 +44,31 @@ yellowGold rgb(223, 175, 64)
 .dropdown .dropdown-menu.header-drop .dropdown-item:hover, .dropdown .dropdown-menu.dropdown-primary .dropdown-item:active {
   background-color:  rgb(70, 97, 29); }
 
-/* secondary nav pills */
+  /* secondary nav tabs */
 
-#addtoexpected .pills-secondary .nav-item .nav-link.active, .tabs-secondary {
-  background-color: rgb(144, 174, 89);
-}
+  .classic-tabs.tabs-cyan li a.active {
+      border-color: rgb(70, 97, 29)
+  }
 
-#addtoexpected .pills-secondary {
-  font-size: .9rem;
-  font-weight: 400;
-}
+  .classic-tabs li a.active {
+      border-bottom: 3px solid;
+      color: rgb(33, 33, 33);
+  }
+
+  .classic-tabs .nav-link {
+      color: rgba(33, 33, 33, .6);
+      text-transform: none;
+  }
+
+  .classic-tabs li a {
+    padding: 5px 12px;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .tabs-cyan {
+      background-color: transparent;
+  }
 
 #addtoexpected .main-content {
   padding-top: 2.75%;
