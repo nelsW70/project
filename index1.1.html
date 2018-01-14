@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>1.1</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/index.css" rel="stylesheet">
+</head>
+
+  <!--Main Navigation-->
+  <header>
+    <div>
+      <nav class="navbar navbar-expand-sm">
+        <a class="navbar-brand" href="index1.1.html"><img src="img/logoHT2.jpg" alt=""></a>
+        <div class="tabs-wrapper">
+          <ul class="nav classic-tabs tabs-cyan" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link waves-light active" data-toggle="tab" href="#panel1" role="tab">Taking Students</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-light" data-toggle="tab" href="#panel2" role="tab">Reviewing Reports</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-light" data-toggle="tab" href="#panel3" role="tab">Special Stuff</a>
+            </li>
+          </ul>
+        </div>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">Nurse1
+              </a>
+                <div class="dropdown-menu header-drop" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">My Profile</a>
+                  <a class="dropdown-item" href="#">Log Out</a>
+                </div>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">For Nurses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Resources</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Help</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+          </ul>
+      </nav>
+    </div>
+  </header>
+  <!--/.Main Navigation-->
+
+  <body id="index">
+
+  <!--Taking/Reviewing/Special Nav - Main Content-->
+    <div class="container-fluid main-content">
+      <!-- <div>
+        <ul class="nav md-pills pills-secondary">
+          <li class="nav-item">
+              <a class="nav-link active" data-toggle="tab" href="#panel1" role="tab">Taking Students</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#panel2" role="tab">Reviewing Reports</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#panel3" role="tab">Special Stuff</a>
+          </li>
+        </ul>
+      </div> -->
+  <!--/.Taking/Reviewing/Special Nav-->
+
+  <!-- Taking/Reviewing/Special Panels -->
+      <div class="tab-content">
+
+          <!--Taking Students Panels Tab-->
+          <div class="tab-pane fade in show active" id="panel1" role="tabpanel">
+
+            <!--Taking Students Panels-->
+              <div class="row">
+                <div class="col-xs-7 col-sm-7 col-md-7 col-lg-6 col-xl-5 student-list" id="checkin-student-list-large">
+
+                  <!-- Taking Students Panels Nav -->
+                  <div class="second-level-navpills">
+                    <ul class="nav md-pills expecting-general-seen">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#panel4" role="tab">Expecting</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#panel5" role="tab">General</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#panel6" role="tab">Seen Today</a>
+                        </li>
+                    </ul>
+                  </div>
+                  <!--/. Taking Students Panels Nav -->
+
+                  <!-- Expecting Panel -->
+                  <div class="tab-content card">
+
+                    <!-- Expecting Panel Tab-->
+                      <div class="tab-pane fade in show active" id="panel4" role="tabpanel">
+
+                          <!-- Expecting panel table wrapper to enable scrolling -->
+                          <div class="table-wrapper-2">
+
+                          <!-- Expecting Table -->
+                          <div class="table-responsive">
+
+                              <!--Table-->
+                              <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th class="th-lg">Last<i class="fa fa-sort ml-1"></i></th>
+                                        <th class="th-lg">First<i class="fa fa-sort ml-1"></i></th>
+                                        <th class="th-lg">Grade<i class="fa fa-sort ml-1"></i></th>
+                                        <th class="th-lg">Time<i class="fa fa-sort ml-1"></i></th>
+                                        <th class="th-lg">Reason<i class="fa fa-sort ml-1"></i></th>
+                                        <th class="th-lg"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="">
+                                        <td id="show">Sheldon</td>
+                                        <td><a href="index1.1CheckinCopy.html">Jackie</a></td>
+                                        <td>8th</td>
+                                        <td>8:30</td>
+                                        <td>CDM</td>
+                                        <td>
+                                            <a class="yellowGold-text" href="index1.1CheckinCopy.html"><i class="fa fa-user fa-lg"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Botton</td>
+                                        <td>Marco</td>
+                                        <td>5th</td>
+                                        <td>1:00</td>
+                                        <td>CDM</td>
+                                        <td>
+                                          <a class="black-text"><i class="fa fa-user fa-lg">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>MachLachlan</td>
+                                        <td>Mariah</td>
+                                        <td>3rd</td>
+                                        <td>8:15</td>
+                                        <td>OV</td>
+                                        <td>
+                                            <a class="black-text"><i class="fa fa-user fa-lg"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Liberty</td>
+                                        <td>Valerie</td>
+                                        <td>2nd</td>
+                                        <td>9:20</td>
+                                        <td>Screening</td>
+                                        <td>
+                                            <a class="black-text"><i class="fa fa-user fa-lg"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rosolino</td>
+                                        <td>Frank</td>
+                                        <td>10th</td>
+                                        <td>9:05</td>
+                                        <td>Screening</td>
+                                        <td>
+                                          <a class="black-text"><i class="fa fa-user fa-lg">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Melba</td>
+                                        <td>Liston</td>
+                                        <td>4th</td>
+                                        <td>8:55</td>
+                                        <td>CDM</td>
+                                        <td>
+                                            <a class="black-text"><i class="fa fa-user fa-lg"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Davis</td>
+                                        <td>Miles</td>
+                                        <td>8th</td>
+                                        <td>10:15</td>
+                                        <td>CDM</td>
+                                        <td>
+                                          <a class="black-text"><i class="fa fa-user fa-lg">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mitchell</td>
+                                        <td>Joni</td>
+                                        <td>12th</td>
+                                        <td>4:15</td>
+                                        <td>CDM</td>
+                                        <td>
+                                            <a class="black-text"><i class="fa fa-user fa-lg"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ferguson</td>
+                                        <td>Maynard</td>
+                                        <td>6th</td>
+                                        <td>9:25</td>
+                                        <td>CDM</td>
+                                        <td>
+                                          <a class="black-text"><i class="fa fa-user fa-lg">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cleveland</td>
+                                        <td>Jimmy</td>
+                                        <td>10th</td>
+                                        <td>2:15</td>
+                                        <td>OV</td>
+                                        <td>
+                                            <a class="black-text"><i class="fa fa-user fa-lg"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Liberty</td>
+                                        <td>Valerie</td>
+                                        <td>2nd</td>
+                                        <td>9:20</td>
+                                        <td>Screening</td>
+                                        <td>
+                                            <a class="black-text"><i class="fa fa-user fa-lg"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rosolino</td>
+                                        <td>Frank</td>
+                                        <td>10th</td>
+                                        <td>9:05</td>
+                                        <td>Screening</td>
+                                        <td>
+                                          <a class="black-text"><i class="fa fa-user fa-lg">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Melba</td>
+                                        <td>Liston</td>
+                                        <td>4th</td>
+                                        <td>8:55</td>
+                                        <td>CDM</td>
+                                        <td>
+                                            <a class="black-text"><i class="fa fa-user fa-lg"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Davis</td>
+                                        <td>Miles</td>
+                                        <td>8th</td>
+                                        <td>10:15</td>
+                                        <td>CDM</td>
+                                        <td>
+                                          <a class="black-text"><i class="fa fa-user fa-lg">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mitchell</td>
+                                        <td>Joni</td>
+                                        <td>12th</td>
+                                        <td>4:15</td>
+                                        <td>CDM</td>
+                                        <td>
+                                            <a class="black-text"><i class="fa fa-user fa-lg"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ferguson</td>
+                                        <td>Maynard</td>
+                                        <td>6th</td>
+                                        <td>9:25</td>
+                                        <td>CDM</td>
+                                        <td>
+                                          <a class="black-text"><i class="fa fa-user fa-lg">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                              <!--Table-->
+
+                          </div>
+                          <!-- Expected Students Table -->
+
+                          </div>
+                          <!-- table wrapper to enable scrolling -->
+
+                      </div>
+                      <!-- Expecting Panel -->
+
+                      <!--Panel 5-->
+                      <div class="tab-pane fade" id="panel5" role="tabpanel">
+                          <br>
+                          <p>General</p>
+                      </div>
+                      <!--/.Panel 5-->
+
+                      <!--Panel 6-->
+                      <div class="tab-pane fade" id="panel6" role="tabpanel">
+                          <br>
+                          <p>Seen Today</p>
+                      </div>
+                      <!--/.Panel 6-->
+                  </div>
+                  <!-- Expecting Panel -->
+                </div>
+
+                <!-- Student ID Card -->
+            <div class="col-sm-5 col-md-5 col-lg-4 col-xl-3 student-id" id="student-id-checkincopy">
+
+              <!--Card-->
+              <div class="card card-body pre-scrollable" id="studentIDanimateDemo">
+                  <div class="img-fluid avatar text-center">
+                      <img src="img/child.jpg" class="rounded-circle z-depth-1-half img-fluid avatar" alt="First sample avatar image">
+                  </div>
+                  <h5 class="font-bold mt-3 text-center">
+                      <strong>Jackie Sheldon</strong>
+                  </h5>
+                  <div>
+                    <ul class="list-unstyled">
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Student ID
+                          <span>11591</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Grade
+                          <span>1st</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Homeroom
+                          <span>51</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Age
+                          <span>6</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Gender
+                          <span>Female</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Alerts
+                          <span><i class="fa fa-exclamation-circle yellowGold-text" aria-hidden="true"></i></span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Emergency Contact
+                          <span>Father</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Cell Phone
+                          <span>555.867.5309</span>
+                      </li>
+                    </ul>
+                  </div>
+              </div>
+              <!--/.Card-->
+            </div>
+            <!-- Student ID Card -->
+
+              </div>
+            <!--/. Taking Students Panels-->
+
+
+          </div>
+          <!--/.Taking Students Panels Tab-->
+
+          <!--Panel 2 Reviewing Reports-->
+          <div class="tab-pane fade" id="panel2" role="tabpanel">
+              <p>Reviewing Reports</p>
+          </div>
+          <!--/.Panel 2 Reviewing Reports-->
+
+          <!--Panel 3 Special Stuff-->
+          <div class="tab-pane fade" id="panel3" role="tabpanel">
+              <p>Special Stuff</p>
+          </div>
+          <!--/.Panel 3 Special Stuff-->
+
+      </div>
+      <!--/.Taking/Reviewing/Special Panels -->
+
+    </div>
+    <!--/. Main Content-->
+
+        <!--Footer-->
+        <footer class="page-footer">
+          <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12">
+                  <!--Panel-->
+                    <div class="card card-body">
+                      <span class="card-body">
+                        <a class="black-text" href="index1.6.html"><i class="fa fa-arrow-left" aria-hidden="true"></i> demo </a>
+                        <a class="black-text" href="index1.1CheckinCopy.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                      </span>
+                    </div>
+                    <!--/.Panel-->
+                </div>
+              </div>
+          </div>
+        </footer>
+        <!--/.Footer-->
+
+
+      <!-- SCRIPTS -->
+      <!-- JQuery -->
+      <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+      <!-- Bootstrap tooltips -->
+      <script type="text/javascript" src="js/popper.min.js"></script>
+      <!-- Bootstrap core JavaScript -->
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <!-- MDB core JavaScript -->
+      <script type="text/javascript" src="js/mdb.min.js"></script>
+      <!-- Hide/Show Student Info Card -->
+      <script>
+      $(document).ready(function(){
+          $("#show").click(function(){
+              $("#studentIDanimateDemo").toggle("fast", "swing");
+          });
+      });
+      </script>
+
+  </body>
+
+</html>

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>index</title>
+    <title>2.1</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
@@ -20,7 +20,7 @@
   <header>
     <div>
       <nav class="navbar navbar-expand-sm">
-        <a class="navbar-brand" href="1.1Checkin.html"><img src="img/logoHT2.jpg" alt=""></a>
+        <a class="navbar-brand" href="index1.1.html"><img src="img/logoHT2.jpg" alt=""></a>
         <div class="tabs-wrapper">
           <ul class="nav classic-tabs tabs-cyan" role="tablist">
             <li class="nav-item">
@@ -98,11 +98,16 @@
                             <a class="nav-link active" data-toggle="tab" href="#panel4" role="tab">Expecting</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#panel5" role="tab">General</a>
+                            <a class="nav-link" id="general-panel-btn" data-toggle="tab" href="#panel5" role="tab">General</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" data-toggle="tab" href="#panel6" role="tab">Seen Today</a>
                         </li>
+                        <ul class="navbar-nav ml-auto" id="icon-collapse">
+                         <li class="nav-item">
+                             <a class="" href="" data-target="" data-toggle=""><i class="fa fa-toggle-left black-text fa-2x" aria-hidden="true"></i></a>
+                         </li>
+                        </ul>
                     </ul>
                   </div>
                   <!--/. Taking Students Panels Nav -->
@@ -133,13 +138,13 @@
                                 </thead>
                                 <tbody>
                                     <tr class="">
-                                        <td><a href="1.1CheckinCopy.html">Sheldon</a></td>
-                                        <td><a href="1.1CheckinCopy.html">Jackie</a></td>
+                                        <td><a href="">Sheldon</a></td>
+                                        <td><a href="">Jackie</a></td>
                                         <td>8th</td>
                                         <td>8:30</td>
                                         <td>CDM</td>
                                         <td>
-                                            <a class="yellowGold-text" href="1.1CheckinCopy.html"><i class="fa fa-user fa-2x" id="jackIshere"></i></a>
+                                            <a class="black-text" href=""><i class="fa fa-user fa-lg"></i></a>
                                         </td>
                                     </tr>
                                     <tr>
@@ -306,11 +311,80 @@
                       <!-- Expecting Panel -->
 
                       <!--Panel 5-->
-                      <div class="tab-pane fade" id="panel5" role="tabpanel">
-                          <br>
-                          <p>General</p>
+                    <div class="tab-pane fade" id="panel5" role="tabpanel">
+                      <!-- Search form -->
+                      <div class="general">
+                        <form class="form-inline md-form form-lg pt-1 active-gold">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                            <input class="form-control w-75 ml-3" type="text" placeholder="Search" aria-label="Search">
+                        </form>
                       </div>
-                      <!--/.Panel 5-->
+                      <div class="interrupted-select general">
+                      <!--select-->
+                        <select class="mdb-select colorful-select dropdown-primary">
+                            <option value="1">All Grades</option>
+                            <option value="2">1</option>
+                            <option value="3">2</option>
+                            <option value="4">3</option>
+                            <option value="5">4</option>
+                            <option value="6">5</option>
+                            <option value="7">6</option>
+                            <option value="8">7</option>
+                            <option value="9">8</option>
+                            <option value="10">9</option>
+                            <option value="11">10</option>
+                            <option value="12">11</option>
+                            <option value="13">12</option>
+                        </select>
+                        <!--/.select-->
+                      </div>
+
+                      <!--table-->
+                      <div class="table table-responsive pt-3 general-student">
+                        <table class="table table-hover">
+                          <thead>
+                            <tr>
+                              <th>Last</th>
+                              <th>First</th>
+                              <th>Grade</th>
+                              <th></th>
+                              <th></th>
+                              <th></th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Aoman</td>
+                              <td>Jillian J</td>
+                              <td>1st</td>
+                              <td></td>
+                              <td><i class="fa fa-user fa-lg fa-lg black-text"></i></td>
+                              <td><i class="fa fa-phone-square fa-lg" aria-hidden="true"></i></td>
+                            </tr>
+                            <tr>
+                              <td>Bailey</td>
+                              <td>Bernhard H</td>
+                              <td>1st</td>
+                              <td></td>
+                              <td><i class="fa fa-user fa-lg fa-lg black-text"></i></td>
+                              <td><i class="fa fa-phone-square fa-lg" aria-hidden="true"></i></td>
+                            </tr>
+                            <tr>
+                              <td>Fontana</td>
+                              <td>Carl</td>
+                              <td>1st</td>
+                              <td><i class="fa fa-exclamation-circle fa-lg yellowGold-text" aria-hidden="true"></i></td>
+                              <td><i class="fa fa-user fa-lg fa-lg black-text"></i></td>
+                              <td><a href="index2.3.html"><i class="fa fa-phone-square fa-lg" aria-hidden="true"></i></td></a>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!--/.table-->
+
+                    </div>
+                    <!--/.Panel 5-->
+
 
                       <!--Panel 6-->
                       <div class="tab-pane fade" id="panel6" role="tabpanel">
@@ -321,6 +395,58 @@
                   </div>
                   <!-- Expecting Panel -->
                 </div>
+
+                <!-- Student ID Card -->
+            <div class="col-sm-5 col-md-5 col-lg-4 col-xl-3 student-id" id="student-id-checkincopy">
+
+              <!--Card-->
+              <div class="card card-body pre-scrollable id-whiteout" id="animateID">
+                  <div class="img-fluid avatar text-center">
+                      <img src="img/child.jpg" class="rounded-circle z-depth-1-half img-fluid avatar" alt="First sample avatar image">
+                  </div>
+                  <h5 class="font-bold mt-3 text-center">
+                      <strong>Jackie Sheldon</strong>
+                  </h5>
+                  <div>
+                    <ul class="list-unstyled">
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Student ID
+                          <span>11591</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Grade
+                          <span>1st</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Homeroom
+                          <span>51</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Age
+                          <span>6</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Gender
+                          <span>Female</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Alerts
+                          <span><i class="fa fa-exclamation-circle yellowGold-text" aria-hidden="true"></i></span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Emergency Contact
+                          <span>Father</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Cell Phone
+                          <span>555.867.5309</span>
+                      </li>
+                    </ul>
+                  </div>
+              </div>
+              <!--/.Card-->
+            </div>
+            <!-- Student ID Card -->
               </div>
             <!--/. Taking Students Panels-->
 
@@ -354,8 +480,8 @@
                   <!--Panel-->
                     <div class="card card-body">
                       <span class="card-body">
-                        <a class="black-text" href="1.6ReturnedJacktoClass.html"><i class="fa fa-arrow-left" aria-hidden="true"></i> demo </a>
-                        <a class="black-text" href="1.1CheckinCopy.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        <a class="black-text" href="index1.3.html"><i class="fa fa-arrow-left" aria-hidden="true"></i> demo </a>
+                        <a class="black-text" href="index2.3.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                       </span>
                     </div>
                     <!--/.Panel-->
@@ -375,14 +501,14 @@
       <script type="text/javascript" src="js/bootstrap.min.js"></script>
       <!-- MDB core JavaScript -->
       <script type="text/javascript" src="js/mdb.min.js"></script>
-      <!-- yellow icon fade-in for demo -->
       <script>
-      $(document).ready(function()
-        {
-         $('#jackIshere').hide().fadeIn(5000);
-        });
+      // triggers General Panel to load first for demo purposes
+      $('#general-panel-btn').tab('show');
+      // Material Select Initialization
+      $(document).ready(function() {
+         $('.mdb-select').material_select();
+       });
       </script>
-
   </body>
 
 </html>
